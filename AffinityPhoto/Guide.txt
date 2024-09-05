@@ -1,6 +1,6 @@
 1.Install ElementalWarrior's wine fork's binaries (https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases)
 2.Install heroic games launcher (AppImage/Flatpak recommended)
-3.Put the ElementalWarrior's wine fork's binaries to heroic games launcher's wine directory
+3.Exract the ElementalWarrior's wine fork's binaries to heroic games launcher's wine directory
 
 AppImage:/home/USER/.config/heroic/tools/wine
 Flatpak:/home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
