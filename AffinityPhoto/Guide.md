@@ -25,6 +25,7 @@ Flatpak:/home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
 12.Search & install these dependencies;
 
 dotnet48
+
 corefonts
 
 (Wait while its installing the dependencies. Its %90 not stuck but rather taking its time!!!)
