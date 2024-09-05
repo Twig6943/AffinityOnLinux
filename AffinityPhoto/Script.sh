@@ -1,4 +1,4 @@
-#!/bin/bash
+p#!/bin/bash
 # This script installs Affinity Photo using WINE. Ensure you have WINE,WINETRICKS WGET, 7Z, and TAR installed.
 
 # Check for required dependencies
@@ -25,7 +25,7 @@ fi
 echo "All dependencies are installed!"
 sleep 2
 
-directory="$HOME/.maymun7"
+directory="$HOME/.AffinityLinux"
 
 # Create install directory
 mkdir -p "$directory"
