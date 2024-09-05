@@ -62,9 +62,6 @@ rm "$directory"/affinity*.exe
 rm "/home/$USER/.local/share/applications/wine/Programs/Affinity Photo 2.desktop"
 
 # Create Desktop Entry
-desktop_entry="$HOME/.local/share/applications/AffinityPhoto.desktop"
-
-#Desktop file stuff
 echo "[Desktop Entry]" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Name=Affinity Photo" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Comment=A powerful image editing software." >> ~/.local/share/applications/AffinityPhoto.desktop
