@@ -35,7 +35,7 @@ corefonts
 (Change the settings in the wine tab if it doesn't work (it should tho) )
 
 ### Special Thanks
-Ardishco
+[Ardishco](https://github.com/raidenovich)
 Deviaze
 Kemal
 Jacazimbo <3
