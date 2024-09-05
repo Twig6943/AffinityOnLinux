@@ -9,4 +9,4 @@
 
 [Script Version 🤖](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Script.sh)
 
-(This is kinda unrelated but if you need to get [Davinci Resolve 🎥](https://www.blackmagicdesign.com/products/davinciresolve) working please refer to [davincibox](https://github.com/zelikos/davincibox)
+(This is kinda unrelated but if you need to get [Davinci Resolve 🎥](https://www.blackmagicdesign.com/products/davinciresolve) working on GNU/Linux 🐧 please refer to [davincibox](https://github.com/zelikos/davincibox)
