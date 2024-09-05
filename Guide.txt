@@ -1,0 +1,35 @@
+1.Install ElementalWarrior's wine fork's binaries (https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases)
+2.Install heroic games launcher (AppImage/Flatpak recommended)
+3.Put the ElementalWarrior's wine fork's binaries to heroic games launcher's wine directory
+
+AppImage:/home/USER/.config/heroic/tools/wine
+Flatpak:/home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
+
+4.Open up heroic games launcher and then click on "add game"
+5.Name it whatever you want & set its cover image
+6.Set the wine version to ElementalWarriorWine
+7.Select the setup .exe/msi you've downloaded from affinity's website as the executable
+8.Click Finish
+9.Right click on affinity on heroic and open up its settings
+10.In order to initialize the prefix click to run .exe inside prefix and run any exe that u have lying around and then click stop from heroic.
+11.Scroll down until you see winetricks & then click on it
+12.Install the dependencies:
+dotnet48
+corefonts
+(Wait its installing the dependencies. Its %90 not stuck but rather taking its time!!!)
+
+13.Click on "OPEN WINETRICKS GUI"
+14.Select "Select the default wineprefix"
+15.Select "Change settings"
+16.Toggle "win11"
+17.Toggle "renderer=vulkan" and click OK
+18.Keep pressing "Cancel" till the winetricks window closes
+19.Close heroic games launcher's settings windows
+20.Unzip WinMetadata.zip to drive_c/windows/system32 https://drive.google.com/file/d/1EyJ3jH7_LNSyok6MUOj2UgVimddPXo3X/view?usp=sharing
+21.Press launch and the setup should work
+22.Once its done installing right click to affinity on heroic and go to the details tab
+23.Click on the 3 dots (located on the right top corner)
+24.Edit App/Game
+25.Change the executable to drive_c/Program Files/Affinity/Photo 2/Photo.exe
+26.Click finish & launch it
+(Change the settings in the wine tab if it doesn't work (it should tho) )
