@@ -5,11 +5,13 @@
 3.Exract the ElementalWarrior's wine fork's binaries to heroic games launcher's wine directory
 
 AppImage:/home/USER/.config/heroic/tools/wine
+
 Flatpak:/home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
 
 4.Open up heroic games launcher and then click on "add game"
 
 5.Name it whatever you want
+
 6.Set the wine version to ElementalWarriorWine
 
 7.Select the setup .exe you've downloaded from affinity's website as the executable
@@ -57,6 +59,7 @@ corefonts
 26.Change the executable to drive_c/Program Files/Affinity/Photo 2/Photo.exe
 
 27.Click finish & launch it
+
 (Change the settings in the wine tab if it doesn't work (it should tho) )
 
 ### Special Thanks
