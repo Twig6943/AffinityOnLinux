@@ -69,7 +69,7 @@ echo "Name=Affinity Photo" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Comment=A powerful image editing software." >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Icon=/home/$USER/.local/share/icons/hicolor/scalable/apps/affinity.svg" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Path=$directory" >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "Exec=WINEPREFIX=$directory $directory/ElementalWarriorWine/bin/wine \"$directory/drive_c/Program Files/Affinity/Photo 2/Photo.exe\"" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Exec=env WINEPREFIX=$directory $directory/ElementalWarriorWine/bin/wine \"$directory/drive_c/Program Files/Affinity/Photo 2/Photo.exe\"" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Terminal=false" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "NoDisplay=false" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "StartupWMClass=photo.exe" >> ~/.local/share/applications/AffinityPhoto.desktop
