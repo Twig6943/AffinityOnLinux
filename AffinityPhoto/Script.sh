@@ -31,7 +31,7 @@ directory="$HOME/.maymun7"
 mkdir -p "$directory"
 
 # Download files
-wget https://upload.wikimedia.org/wikipedia/commons/f/f5/Affinity_Photo_V2_icon.svg -O "$HOME/.local/share/icons/hicolor/scalable/apps/affinity.svg"
+wget https://upload.wikimedia.org/wikipedia/commons/f/f5/Affinity_Photo_V2_icon.svg -O "/home/$USER/.local/share/icons/affinity.svg"
 wget https://github.com/Twig6943/ElementalWarrior-Wine-binaries/releases/download/binary-release-1.0/ElementalWarriorWine.tar.gz -O "$directory/ElementalWarriorWine.tar.gz"
 wget https://archive.org/download/win-metadata/WinMetadata.zip -O "$directory/Winmetadata.zip"
 
@@ -67,7 +67,7 @@ rm "/home/$USER/.local/share/applications/wine/Programs/Affinity Photo 2.desktop
 echo "[Desktop Entry]" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Name=Affinity Photo" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Comment=A powerful image editing software." >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "Icon=/home/$USER/.local/share/icons/hicolor/scalable/apps/affinity.svg" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Icon=/home/$USER/.local/share/icons/affinity.svg" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Path=$directory" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Exec=env WINEPREFIX=$directory $directory/ElementalWarriorWine/bin/wine \"$directory/drive_c/Program Files/Affinity/Photo 2/Photo.exe\"" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Terminal=false" >> ~/.local/share/applications/AffinityPhoto.desktop
