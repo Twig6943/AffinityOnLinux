@@ -1,4 +1,4 @@
-# AffinityOnLinux
+# AffinityOnLinux 🌹
 
 [Affinity Photo 2 📸](https://affinity.serif.com/en-gb/photo/?#top)
 
