@@ -86,7 +86,7 @@ cp "$HOME/.local/share/applications/AffinityPhoto.desktop" "$HOME/Desktop/Affini
 echo "******************************"
 echo "    Special Thanks"
 echo "******************************"
-echo "Ardishco"
+echo "Ardishco (github.com/raidenovich)"
 echo "Deviaze"
 echo "Kemal"
 echo "Jacazimbo <3"
