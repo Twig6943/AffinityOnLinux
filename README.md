@@ -1,2 +1,3 @@
 # AffinityOnLinux
-A guide that gets affinity photo 2 working on linux
+[Guide Version](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guide.txt)
+[Script Version]()
