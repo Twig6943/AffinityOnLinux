@@ -24,7 +24,7 @@ fi
 echo "All dependencies are installed!"
 sleep 2
 
-directory="$HOME/.maymun3"
+directory="$HOME/.maymun5"
 
 # Create install directory
 mkdir -p "$directory"
@@ -49,15 +49,14 @@ WINEPREFIX="$directory" "$directory/ElementalWarriorWine/bin/winecfg" -v win11
 7z x "$directory/Winmetadata.zip" -o"$directory/drive_c/windows/system32"
 rm "$directory/Winmetadata.zip"
 # Start the setup
-echo "Put Affinity Photo's setup .exe to $directory and press Enter when ready."
-read -n 1 -s
+echo "Put Affinity Photo's setup .exe to $directory and press enter when ready."
+read -n 1
 
-echo "Click No if you get any errors."
-read -n 1 -s
+echo "Click No if you get any errors. Press enter to continue."
+read -n 1
 
-WINEPREFIX="$directory" "$directory/ElementalWarriorWine/bin/wine" "$directory/affinity-photo-msi-2.5.5.exe"
-rm "$directory/affinity-photo-msi-2.5.5.exe"
-
+WINEPREFIX="$directory" "$directory/ElementalWarriorWine/bin/wine" "$directory"/*.exe
+find "$directory" -type f -name "*.exe" -exec rm {} +
 
 #Remove Desktop entry created by wine
 rm "/home/$USER/.local/share/applications/wine/Programs/Affinity Photo 2.desktop"
@@ -65,34 +64,36 @@ rm "/home/$USER/.local/share/applications/wine/Programs/Affinity Photo 2.desktop
 # Create Desktop Entry
 desktop_entry="$HOME/.local/share/applications/AffinityPhoto.desktop"
 
-cat <<EOL > "$desktop_entry"
-[Desktop Entry]
-Name=Affinity Photo
-Comment=A powerful image editing software.
-Icon=$HOME/.local/share/icons/hicolor/scalable/apps/affinity.svg
-Exec=WINEPREFIX=$directory $directory/ElementalWarriorWine/bin/wine "$directory/drive_c/Program Files/Affinity/Photo 2/Photo.exe"
-Path=$directory
-NoDisplay=false
-StartupNotify=true
-Terminal=false
+
 StartupWMClass=photo.exe
-Type=Application
-Categories=Graphics;
-StartupNotify=true
-EOL
+
+#Desktop file stuff
+echo "[Desktop Entry]" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Name=Affinity Photo" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Comment=A powerful image editing software." >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Icon=/home/$USER/.local/share/icons/hicolor/scalable/apps/affinity.svg" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Path=$directory" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Exec=WINEPREFIX=$directory $directory/ElementalWarriorWine/bin/wine \"$directory/drive_c/Program Files/Affinity/Photo 2/Photo.exe\"" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Terminal=false" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "NoDisplay=false" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "StartupWMClass=photo.exe" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Type=Application" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Categories=Graphics;" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "StartupNotify=true" >> ~/.local/share/applications/AffinityPhoto.desktop
+
+cp ~/.local/share/applications/AffinityPhoto.desktop ~/Desktop/AffinityPhoto.desktop
 
 # Copy to desktop
-cp "$desktop_entry" "$HOME/Desktop/AffinityPhoto.desktop"
+cp "$HOME/.local/share/applications/AffinityPhoto.desktop" "$HOME/Desktop/AffinityPhoto.desktop"
 
 # Special Thanks section
-echo
 echo "******************************"
 echo "    Special Thanks"
 echo "******************************"
 echo "Ardishco"
 echo "Deviaze"
 echo "Kemal"
-echo "Jacazimbo"
+echo "Jacazimbo <3"
 echo "Kharoon"
 echo "Jediclank134"
-read -n 1 -s
+read -n 1
