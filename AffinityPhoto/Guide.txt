@@ -6,7 +6,7 @@ AppImage:/home/USER/.config/heroic/tools/wine
 Flatpak:/home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
 
 4.Open up heroic games launcher and then click on "add game"
-5.Name it whatever you want & set its cover image
+5.Name it whatever you want
 6.Set the wine version to ElementalWarriorWine
 7.Select the setup .exe you've downloaded from affinity's website as the executable
 8.Click Finish
