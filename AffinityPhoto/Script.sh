@@ -44,7 +44,6 @@ rm "$directory/ElementalWarriorWine.tar.gz"
 # WINETRICKS stuff
 WINEPREFIX="$directory" winetricks --unattended dotnet48 corefonts
 WINEPREFIX="$directory" winetricks renderer=vulkan
-WINEPREFIX="$directory" "$directory/ElementalWarriorWine/bin/winecfg" -v win11
 
 # Extract & delete WinMetadata.zip
 7z x "$directory/Winmetadata.zip" -o"$directory/drive_c/windows/system32"
@@ -56,6 +55,8 @@ read -n 1
 echo "Click No if you get any errors. Press any key to continue."
 read -n 1
 
+#Set windows version to 11
+WINEPREFIX="$directory" "$directory/ElementalWarriorWine/bin/winecfg" -v win11
 WINEPREFIX="$directory" "$directory/ElementalWarriorWine/bin/wine" "$directory"/*.exe
 rm "$directory"/affinity*.exe
 
