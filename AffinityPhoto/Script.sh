@@ -24,7 +24,7 @@ fi
 echo "All dependencies are installed!"
 sleep 2
 
-directory="$HOME/.maymun5"
+directory="$HOME/.maymun7"
 
 # Create install directory
 mkdir -p "$directory"
@@ -49,14 +49,14 @@ WINEPREFIX="$directory" "$directory/ElementalWarriorWine/bin/winecfg" -v win11
 7z x "$directory/Winmetadata.zip" -o"$directory/drive_c/windows/system32"
 rm "$directory/Winmetadata.zip"
 # Start the setup
-echo "Put Affinity Photo's setup .exe to $directory and press enter when ready."
+echo "Put Affinity Photo's setup .exe to $directory and press any key when ready."
 read -n 1
 
-echo "Click No if you get any errors. Press enter to continue."
+echo "Click No if you get any errors. Press any key to continue."
 read -n 1
 
 WINEPREFIX="$directory" "$directory/ElementalWarriorWine/bin/wine" "$directory"/*.exe
-find "$directory" -type f -name "*.exe" -exec rm {} +
+rm "$directory"/affinity*.exe
 
 #Remove Desktop entry created by wine
 rm "/home/$USER/.local/share/applications/wine/Programs/Affinity Photo 2.desktop"
