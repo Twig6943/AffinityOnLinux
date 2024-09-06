@@ -60,6 +60,11 @@ WINEPREFIX="$directory" "$directory/ElementalWarriorWine/bin/winecfg" -v win11
 WINEPREFIX="$directory" "$directory/ElementalWarriorWine/bin/wine" "$directory"/*.exe
 rm "$directory"/affinity*.exe
 
+#Wine dark theme
+wget https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/wine-dark-theme.reg -O "$directory/wine-dark-theme.reg"
+WINEPREFIX="$directory" "$directory/ElementalWarriorWine/bin/regedit" "$directory/wine-dark-theme.reg"
+rm "$directory/wine-dark-theme.reg"
+
 #Remove Desktop entry created by wine
 rm "/home/$USER/.local/share/applications/wine/Programs/Affinity Photo 2.desktop"
 
