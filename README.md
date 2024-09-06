@@ -11,6 +11,6 @@
 ```
 bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityPhoto/Script.sh)"
 ```
-[Known issues](https://github.com/Twig6943/AffinityOnLinux/blob/main/Known-issues.md)
+[Known issues](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Known-issues.md)
 
 (This is kinda unrelated but if you need to get [Davinci Resolve 🎥](https://www.blackmagicdesign.com/products/davinciresolve) working on GNU/Linux 🐧 please refer to [davincibox](https://github.com/zelikos/davincibox) )
