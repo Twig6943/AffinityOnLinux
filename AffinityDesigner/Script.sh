@@ -1,5 +1,4 @@
-p#!/bin/bash
-# This script installs Affinity Designer using WINE. Ensure you have WINE,WINETRICKS WGET, 7Z, and TAR installed.
+#!/bin/bash
 
 # Check for required dependencies
 missing_deps=""
