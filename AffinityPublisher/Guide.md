@@ -62,6 +62,25 @@ corefonts
 
 (Change the settings in the wine tab if it doesn't work or if you have gpu glitches (it should work fine tho) )
 
+# Optional wine dark theme 🍷
+1.Download this file https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/wine-dark-theme.reg
+
+2.Right click to your affinity app and go to settings
+
+3.Click to winetricks
+
+4.Click to OPEN WINETRICKS GUI
+
+5.Select default prefix
+
+6.Run regedit
+
+7.Registry>Import registry file
+
+8.Pick the file you've downloaded earlier (wine-dark-theme.reg)
+
+9.You should now have dark theme working
+
 ### Special Thanks
 
 [Ardishco](https://github.com/raidenovich)
