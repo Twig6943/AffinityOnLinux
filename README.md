@@ -17,22 +17,22 @@ bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/ma
 
 <img src="https://github.com/user-attachments/assets/8ea7f748-c455-4ee8-9a94-775de40dbbf3" alt="Affinity_Designer_2-logo" width="200"/>
 
-[Guide Version 📕](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Guide.md)
+[Guide Version 📕](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityDesigner/Guide.md)
 
-[Script Version 🤖](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Script.sh)
+[Script Version 🤖](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityDesigner/Script.sh)
 ```
-bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityPhoto/Script.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityDesigner/Script.sh)"
 ```
 
 # [Affinity Publisher 📢](https://affinity.serif.com/en-gb/publisher/?#top)
 
 <img src="https://github.com/user-attachments/assets/96ae06f8-470b-451f-ba29-835324b5b552" width="200"/>
 
-[Guide Version 📕](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Guide.md)
+[Guide Version 📕](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPublisher/Guide.md)
 
-[Script Version 🤖](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Script.sh)
+[Script Version 🤖](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPublisher/Script.sh)
 ```
-bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityPhoto/Script.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityPublisher/Script.sh)"
 ```
 
 # [Known issues](https://github.com/Twig6943/AffinityOnLinux/blob/main/Known-issues.md)
