@@ -45,6 +45,9 @@ wget https://archive.org/download/win-metadata/WinMetadata.zip -O "$directory/Wi
 # Extract wine binary
 tar -xvzf "$directory/ElementalWarriorWine.tar.gz" -C "$directory"
 
+# Rename wine binary directory
+mv $directory/Twig6943-ElementalWarrior-Wine-binaries-* $directory/ElementalWarriorWine
+
 # Erase the ElementalWarriorWine.tar.gz
 rm "$directory/ElementalWarriorWine.tar.gz"
 
