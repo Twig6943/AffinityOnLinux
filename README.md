@@ -1,6 +1,5 @@
 # AffinityOnLinux 🌹
-
-(This is kinda unrelated but if you need to get [Davinci Resolve 🎥](https://www.blackmagicdesign.com/products/davinciresolve) working on GNU/Linux 🐧 please refer to [davincibox](https://github.com/zelikos/davincibox) )
+A repository that helps users get affinity software working on GNU/Linux 🐧
 
 # [Affinity Photo 📸](https://affinity.serif.com/en-gb/photo/?#top)
 
@@ -25,9 +24,9 @@ bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/ma
 bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityPhoto/Script.sh)"
 ```
 
-# [Affinity Publisher 📢]https://affinity.serif.com/en-gb/publisher/?#top)
+# [Affinity Publisher 📢](https://affinity.serif.com/en-gb/publisher/?#top)
 
-<img src="https://github.com/user-attachments/assets/8ea7f748-c455-4ee8-9a94-775de40dbbf3" alt="Affinity_Designer_2-logo" width="200"/>
+<img src="https://github.com/user-attachments/assets/96ae06f8-470b-451f-ba29-835324b5b552" width="200"/>
 
 [Guide Version 📕](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Guide.md)
 
