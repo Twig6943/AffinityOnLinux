@@ -32,11 +32,13 @@ wineserver -k
 # Create install directory
 mkdir -p "$directory"
 
-#Download latest wine 
-latest_release_url=$(curl -s https://api.github.com/repos/Twig6943/ElementalWarrior-Wine-binaries/releases/latest | grep "tarball_url" | cut -d '"' -f 4)
+# Fetch the latest release information from GitHub
+asset_url=$(wget -qO- https://api.github.com/repos/Twig6943/ElementalWarrior-Wine-binaries/releases/latest | \
+grep "browser_download_url.*ElementalWarriorWine.tar.gz" | \
+cut -d '"' -f 4)
 
-# Download the latest wine release
-wget "$latest_release_url" -O "$directory/ElementalWarriorWine.tar.gz"
+# Download the specific release asset
+wget "$asset_url" -O "$directory/ElementalWarriorWine.tar.gz"
 
 # Download files
 wget https://upload.wikimedia.org/wikipedia/commons/3/3c/Affinity_Designer_2-logo.svg -O "/home/$USER/.local/share/icons/AffinityDesigner.svg"
