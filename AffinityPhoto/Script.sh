@@ -13,6 +13,7 @@ check_dependency() {
 check_dependency "wine"
 check_dependency "winetricks"
 check_dependency "wget"
+check_dependency "curl"
 check_dependency "7z"
 check_dependency "tar"
 
@@ -32,9 +33,14 @@ wineserver -k
 # Create install directory
 mkdir -p "$directory"
 
+#Download latest wine 
+latest_release_url=$(curl -s https://api.github.com/repos/Twig6943/ElementalWarrior-Wine-binaries/releases/latest | grep "tarball_url" | cut -d '"' -f 4)
+
+# Download the latest wine release
+wget "$latest_release_url" -O "$directory/ElementalWarriorWine.tar.gz"
+
 # Download files
 wget https://upload.wikimedia.org/wikipedia/commons/f/f5/Affinity_Photo_V2_icon.svg -O "/home/$USER/.local/share/icons/affinity.svg"
-wget https://github.com/Twig6943/ElementalWarrior-Wine-binaries/releases/download/binary-release-1.0/ElementalWarriorWine.tar.gz -O "$directory/ElementalWarriorWine.tar.gz"
 wget https://archive.org/download/win-metadata/WinMetadata.zip -O "$directory/Winmetadata.zip"
 
 # Extract wine binary
