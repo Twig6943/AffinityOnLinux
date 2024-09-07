@@ -51,7 +51,7 @@ tar -xvzf "$directory/ElementalWarriorWine.tar.gz" -C "$directory"
 rm "$directory/ElementalWarriorWine.tar.gz"
 
 # WINETRICKS stuff
-WINEPREFIX="$directory" winetricks --unattended dotnet48 corefonts
+WINEPREFIX="$directory" winetricks --unattended dotnet35 dotnet48 corefonts
 WINEPREFIX="$directory" winetricks renderer=vulkan
 
 # Extract & delete WinMetadata.zip
