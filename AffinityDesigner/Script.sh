@@ -1,5 +1,5 @@
 p#!/bin/bash
-# This script installs Affinity Photo using WINE. Ensure you have WINE,WINETRICKS WGET, 7Z, and TAR installed.
+# This script installs Affinity Designer using WINE. Ensure you have WINE,WINETRICKS WGET, 7Z, and TAR installed.
 
 # Check for required dependencies
 missing_deps=""
@@ -78,22 +78,22 @@ rm "/home/$USER/.local/share/applications/wine/Programs/Affinity Designer 2.desk
 
 # Create Desktop Entry
 echo "[Desktop Entry]" >> ~/.local/share/applications/AffinityDesigner.desktop
-echo "Name=Affinity Photo" >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "Comment=Affinity Designer is a graphic designing and UX solution that helps businesses create concept art, logos, icons, UI designs, print projects and mock-ups, among other illustrations." >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "Icon=/home/$USER/.local/share/icons/AffinityDesigner.svg" >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "Path=$directory" >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "Exec=env WINEPREFIX=$directory $directory/ElementalWarriorWine/bin/wine \"$directory/drive_c/Program Files/Affinity/Designer 2/Designer.exe\"" >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "Terminal=false" >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "NoDisplay=false" >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "StartupWMClass=designer.exe" >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "Type=Application" >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "Categories=Graphics;" >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "StartupNotify=true" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Name=Affinity Designer" >> ~/.local/share/applications/AffinityDesigner.desktop
+echo "Comment=Affinity Designer is a graphic designing and UX solution that helps businesses create concept art, logos, icons, UI designs, print projects and mock-ups, among other illustrations." >> ~/.local/share/applications/AffinityDesigner.desktop
+echo "Icon=/home/$USER/.local/share/icons/AffinityDesigner.svg" >> ~/.local/share/applications/AffinityDesigner.desktop
+echo "Path=$directory" >> ~/.local/share/applications/AffinityDesigner.desktop
+echo "Exec=env WINEPREFIX=$directory $directory/ElementalWarriorWine/bin/wine \"$directory/drive_c/Program Files/Affinity/Designer 2/Designer.exe\"" >> ~/.local/share/applications/AffinityDesigner.desktop
+echo "Terminal=false" >> ~/.local/share/applications/AffinityDesigner.desktop
+echo "NoDisplay=false" >> ~/.local/share/applications/AffinityDesigner.desktop
+echo "StartupWMClass=designer.exe" >> ~/.local/share/applications/AffinityDesigner.desktop
+echo "Type=Application" >> ~/.local/share/applications/AffinityDesigner.desktop
+echo "Categories=Graphics;" >> ~/.local/share/applications/AffinityDesigner.desktop
+echo "StartupNotify=true" >> ~/.local/share/applications/AffinityDesigner.desktop
 
-cp ~/.local/share/applications/AffinityPhoto.desktop ~/Desktop/AffinityPhoto.desktop
+cp ~/.local/share/applications/AffinityDesigner.desktop ~/Desktop/AffinityDesigner.desktop
 
 # Copy to desktop
-cp "$HOME/.local/share/applications/AffinityPhoto.desktop" "$HOME/Desktop/AffinityPhoto.desktop"
+cp "$HOME/.local/share/applications/AffinityDesigner.desktop" "$HOME/Desktop/AffinityDesigner.desktop"
 
 # Special Thanks section
 echo "******************************"
