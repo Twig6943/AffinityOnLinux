@@ -27,6 +27,8 @@ sleep 2
 
 directory="$HOME/.AffinityLinux"
 
+#Kill wine
+wineserver -k
 # Create install directory
 mkdir -p "$directory"
 
