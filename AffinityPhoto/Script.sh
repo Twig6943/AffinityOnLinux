@@ -32,10 +32,10 @@ wineserver -k
 # Create install directory
 mkdir -p "$directory"
 
-#Download latest wine 
-latest_release_url=$(curl -s https://api.github.com/repos/Twig6943/ElementalWarrior-Wine-binaries/releases/latest | grep "tarball_url" | cut -d '"' -f 4)
+# Fetch the latest release URL using wget and parse it
+latest_release_url=$(wget -qO- https://api.github.com/repos/Twig6943/ElementalWarrior-Wine-binaries/releases/latest | grep "tarball_url" | cut -d '"' -f 4)
 
-# Download the latest wine release
+# Download the latest release
 wget "$latest_release_url" -O "$directory/ElementalWarriorWine.tar.gz"
 
 # Download files
@@ -44,9 +44,6 @@ wget https://archive.org/download/win-metadata/WinMetadata.zip -O "$directory/Wi
 
 # Extract wine binary
 tar -xvzf "$directory/ElementalWarriorWine.tar.gz" -C "$directory"
-
-# Rename wine binary directory
-mv $directory/Twig6943-ElementalWarrior-Wine-binaries-* $directory/ElementalWarriorWine
 
 # Erase the ElementalWarriorWine.tar.gz
 rm "$directory/ElementalWarriorWine.tar.gz"
