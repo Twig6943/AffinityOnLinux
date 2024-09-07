@@ -1,4 +1,4 @@
-p#!/bin/bash
+#!/bin/bash
 # This script installs Affinity Photo using WINE. Ensure you have WINE,WINETRICKS WGET, 7Z, and TAR installed.
 
 # Check for required dependencies
