@@ -1,4 +1,7 @@
 # AffinityOnLinux 🌹
+
+<img src="https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityOnLinux.png?raw=true" alt="Affinity on Linux" width="250"/>
+
 A repository that helps users get affinity software working on GNU/Linux 🐧
 
 # [Affinity Photo 📸](https://affinity.serif.com/en-gb/photo/?#top)
@@ -35,4 +38,5 @@ bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/ma
 bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityPublisher/Script.sh)"
 ```
 
-# [Known issues](https://github.com/Twig6943/AffinityOnLinux/blob/main/Known-issues.md)
+# [Other software on GNU/Linux 💻](https://github.com/Twig6943/AffinityOnLinux/blob/main/OtherSoftware-on-Linux.md)
+# [Known issues ⚠️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Known-issues.md)
