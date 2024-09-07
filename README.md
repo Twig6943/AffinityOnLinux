@@ -14,7 +14,7 @@
 bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityPhoto/Script.sh)"
 ```
 
-# [Affinity Designer 📸](https://affinity.serif.com/en-us/designer/?#top)
+# [Affinity Designer ✨](https://affinity.serif.com/en-us/designer/?#top)
 
 <img src="https://github.com/user-attachments/assets/8ea7f748-c455-4ee8-9a94-775de40dbbf3" alt="Affinity_Designer_2-logo" width="200"/>
 
