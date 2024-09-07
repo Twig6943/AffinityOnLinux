@@ -40,7 +40,7 @@ latest_release_url=$(curl -s https://api.github.com/repos/Twig6943/ElementalWarr
 wget "$latest_release_url" -O "$directory/ElementalWarriorWine.tar.gz"
 
 # Download files
-wget https://upload.wikimedia.org/wikipedia/commons/f/f5/Affinity_Photo_V2_icon.svg -O "/home/$USER/.local/share/icons/affinityphoto.svg"
+wget https://upload.wikimedia.org/wikipedia/commons/f/f5/Affinity_Photo_V2_icon.svg -O "/home/$USER/.local/share/icons/AffinityPhoto.svg"
 wget https://archive.org/download/win-metadata/WinMetadata.zip -O "$directory/Winmetadata.zip"
 
 # Extract wine binary
@@ -80,7 +80,7 @@ rm "/home/$USER/.local/share/applications/wine/Programs/Affinity Photo 2.desktop
 echo "[Desktop Entry]" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Name=Affinity Photo" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Comment=A powerful image editing software." >> ~/.local/share/applications/AffinityPhoto.desktop
-echo "Icon=/home/$USER/.local/share/icons/affinityphoto.svg" >> ~/.local/share/applications/AffinityPhoto.desktop
+echo "Icon=/home/$USER/.local/share/icons/AffinityPhoto.svg" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Path=$directory" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Exec=env WINEPREFIX=$directory $directory/ElementalWarriorWine/bin/wine \"$directory/drive_c/Program Files/Affinity/Photo 2/Photo.exe\"" >> ~/.local/share/applications/AffinityPhoto.desktop
 echo "Terminal=false" >> ~/.local/share/applications/AffinityPhoto.desktop
