@@ -60,7 +60,7 @@ corefonts
 
 27.Click finish & launch it
 
-(Change the settings in the wine tab if it doesn't work (it should tho) )
+(Change the settings in the wine tab if it doesn't work or if you have gpu glitches (it should work fine tho) )
 
 ### Special Thanks
 
