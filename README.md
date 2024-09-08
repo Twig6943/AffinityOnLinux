@@ -4,6 +4,8 @@
 
 A repository that helps users get affinity software working on GNU/Linux 🐧
 
+[Discord](https://discord.gg/t5V9ecpJWZ)
+
 # [Affinity Photo 📸](https://affinity.serif.com/en-gb/photo/?#top)
 
 <img src="https://github.com/user-attachments/assets/c7b70ee5-58e3-46c6-b385-7c3d02749664" alt="Affinity_Photo_V2_icon" width="200"/>
