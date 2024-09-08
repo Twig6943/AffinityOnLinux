@@ -26,6 +26,8 @@ echo "All dependencies are installed!"
 sleep 2
 
 directory="$HOME/.AffinityLinux"
+repo="Twig6943/ElementalWarrior-Wine-binaries" #Owner/Repo
+filename="ElementalWarriorWine.tar.gz" #Filename
 
 #Kill wine
 wineserver -k
@@ -33,25 +35,38 @@ wineserver -k
 mkdir -p "$directory"
 
 # Fetch the latest release information from GitHub
-asset_url=$(wget -qO- https://api.github.com/repos/Twig6943/ElementalWarrior-Wine-binaries/releases/latest | \
-grep "browser_download_url.*ElementalWarriorWine.tar.gz" | \
-cut -d '"' -f 4)
+release_info=$(curl -s "https://api.github.com/repos/$repo/releases/latest")
+download_url=$(echo "$release_info" | jq -r ".assets[] | select(.name == \"$filename\") | .browser_download_url")
+[ -z "$download_url" ] && { echo "File not found in the latest release"; exit 1; }
 
 # Download the specific release asset
-wget "$asset_url" -O "$directory/ElementalWarriorWine.tar.gz"
+wget -q "$download_url" -O "$directory/$filename" #Download wine binaries
+
+# Check downloaded filesize matches repo
+github_size=$(echo "$release_info" | jq -r ".assets[] | select(.name == \"$filename\") | .size")
+local_size=$(wc -c < "$directory/$filename")
+
+
+if [ "$github_size" -eq "$local_size" ]; then
+    echo "File sizes match: $local_size bytes"
+else
+    echo "File sizes do not match: GitHub size: $github_size bytes, Local size: $local_size bytes"
+    echo "Download $filename from $download_url move to $directory and hit any button to continue"
+    read -n 1
+fi
 
 # Download files
 wget https://upload.wikimedia.org/wikipedia/commons/9/9c/Affinity_Publisher_V2_icon.svg -O "/home/$USER/.local/share/icons/AffinityPublisher.svg"
 wget https://archive.org/download/win-metadata/WinMetadata.zip -O "$directory/Winmetadata.zip"
 
 # Extract wine binary
-tar -xvzf "$directory/ElementalWarriorWine.tar.gz" -C "$directory"
+tar -xvzf "$directory/$filename" -C "$directory"
 
 # Rename wine binary directory
-mv $directory/Twig6943-ElementalWarrior-Wine-binaries-* $directory/ElementalWarriorWine
+#mv $directory/Twig6943-ElementalWarrior-Wine-binaries-* $directory/ElementalWarriorWine
 
 # Erase the ElementalWarriorWine.tar.gz
-rm "$directory/ElementalWarriorWine.tar.gz"
+rm "$directory/$filename"
 
 # WINETRICKS stuff
 WINEPREFIX="$directory" winetricks --unattended dotnet35 dotnet48 corefonts
@@ -61,7 +76,8 @@ WINEPREFIX="$directory" winetricks renderer=vulkan
 7z x "$directory/Winmetadata.zip" -o"$directory/drive_c/windows/system32"
 rm "$directory/Winmetadata.zip"
 # Start the setup
-echo "Put Setup .exe to $directory and press any key when ready."
+echo "Download the Affinity Publisher .exe from https://store.serif.com/account/licences/"
+echo "Once downloaded place the .exe in $directory and press any key when ready."
 read -n 1
 
 echo "Click No if you get any errors. Press any key to continue."
