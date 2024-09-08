@@ -16,6 +16,6 @@
     Select vkd3d-proton as the vkd3d version.
     Disable DXVK.
 
-5. Launch Affinity Apps
+4. Launch Affinity Apps
 
 Run the Affinity apps and verify OpenCL is working by checking the preferences for hardware acceleration.
