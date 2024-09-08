@@ -7,7 +7,9 @@ Use [davincibox](https://github.com/zelikos/davincibox)
 
 <img src="https://avatars.githubusercontent.com/u/1458180?s=200&v=4" alt="DaVinci Resolve 17 Logo" width="200"/>
 
-Placeholder (Using distrobox to compile should work.) 
+Placeholder
+
+(Using distrobox to compile should work.) 
 
 (They still don't provide binaries as of writing this.)
 
