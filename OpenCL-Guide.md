@@ -8,7 +8,7 @@
 
 3. Install VKD3D-Proton
 
-    download vkd3d-proton to Lutris from [ProtonPlus](https://github.com/ProtonPlus/ProtonPlus)
+    download vkd3d-proton to Lutris from [ProtonPlus](https://github.com/Vysp3r/ProtonPlus)
 
 
 4. Configure Lutris
