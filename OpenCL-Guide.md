@@ -1,7 +1,7 @@
-1. Install NVIDIA opencl Drivers
+1. Install opencl Drivers for your gpu
 
-    Ensure the NVIDIA drivers and opencl drivers are installed for your GPU
-    For Arch:
+    Ensure the gpu drivers and opencl drivers are installed for your GPU
+    e.g. for Arch & Nvidia:
     sudo pacman -S opencl-nvidia
 
 2. Install VKD3D-Proton
