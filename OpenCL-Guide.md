@@ -1,4 +1,4 @@
-1. Install opencl Drivers for your gpu
+1. Install opencl Drivers for your nvidia gpu (amd & intel are currently unsupported)
 
     Ensure the gpu drivers and opencl drivers are installed for your GPU.
    
@@ -9,7 +9,7 @@
 3. Install VKD3D-Proton
 
     download vkd3d-proton to Lutris from [ProtonPlus](https://github.com/Vysp3r/ProtonPlus)
-
+    (doing the same thing might work with Heroic games launcher to)
 
 4. Configure Lutris
 
