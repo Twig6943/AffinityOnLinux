@@ -1,4 +1,4 @@
-## How to Install Affinity Wine
+## How to Download Affinity Wine
 
 Head to the github and Download the newest release [Here](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) 
 
@@ -30,7 +30,7 @@ sudo pacman -S lutris
 ## Ubuntu/Debian
 
 ```
-sudo pacman -S lutris
+sudo apt install lutris
 ```
 ## Installing Affinity Linux's Prebuilt Wine
 
