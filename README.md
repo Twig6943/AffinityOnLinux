@@ -18,6 +18,10 @@ A repository that helps users get affinity software working on GNU/Linux 🐧
 
 This guide helps you Step by step by hand using Heroic Game launcher or Lutris
 
+[Dependencies for Different Package Managers](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guide/Guide.md#required-dependencies)
+
+If you are Having issues Check this Part of the guide.
+
 [Affinity Photo 🤖](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityScripts/AffinityPhoto.sh)
 
 ```
