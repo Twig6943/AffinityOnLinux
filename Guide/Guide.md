@@ -12,6 +12,28 @@ Head to the github and Download the newest release [Here](https://github.com/Twi
 
 From the Drop down Choose the exe
 
+## Required dependencies
+
+## Ubuntu/Debian
+
+```
+sudo apt install gcc-mingw-w64 gcc-multilib libasound2-dev libcups2-dev libdbus-1-dev libfontconfig-dev libfreetype-dev libgl-dev libgnutls28-dev libgphoto2-dev libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev libosmesa6-dev libpcap-dev libpulse-dev libsane-dev libsdl2-dev libudev-dev libunwind-dev libusb-1.0-0-dev libvulkan-dev libx11-dev libxcomposite-dev libxcursor-dev libxext-dev libxfixes-dev libxi-dev libxrandr-dev libxrender-dev ocl-icd-opencl-dev samba-dev git
+```
+## Arch Linux/CachyOS
+
+```
+sudo pacman -Syu alsa-lib alsa-plugins cups desktop-file-utils dosbox ffmpeg fontconfig freetype2 gcc-libs gettext giflib gnutls gst-plugins-base-libs gtk3 libgphoto2 libpcap libpulse libva libxcomposite libxcursor libxi libxinerama libxrandr mingw-w64-gcc opencl-headers opencl-icd-loader samba sane sdl2 v4l-utils vulkan-icd-loader wine-mono winetricks git
+```
+
+## Fedora/Nobara
+```
+sudo dnf install alsa-lib-devel cups-devel dbus-libs fontconfig-devel freetype-devel glibc-devel.i686 gnutls-devel gstreamer1-devel gstreamer1-plugins-base-devel libgphoto2-devel libunwind-devel libusbx-devel libX11-devel libXcomposite-devel libXcursor-devel libXext-devel libXfixes-devel libXi-devel libXrandr-devel libXrender-devel mesa-libGL-devel mesa-libOSMesa-devel mingw32-gcc mingw64-gcc ocl-icd-devel samba-devel sane-backends-devel SDL2-devel vulkan-headers vulkan-loader vulkan-loader-devel winetricks git
+```
+## Opensuse/Others
+```
+sudo zypper install alsa-lib-devel cups-devel dbus-1-devel flex fontconfig-devel freetype-devel glibc-devel-32bit gnutls-devel gstreamer-devel gstreamer-plugins-base-devel libgphoto2-devel libOSMesa-devel libunwind-devel libusb-1_0-devel libusb-compat-devel libX11-devel libXcomposite-devel libXcursor-devel libXext-devel libXfixes-devel libXi-devel libXrandr-devel libXrender-devel Mesa-libGL-devel mingw32-cross-gcc mingw32-cross-wine mingw32-gcc mingw64-cross-gcc mingw64-cross-wine mingw64-gcc ocl-icd-devel samba-devel sane-backends-devel SDL2-devel vulkan-devel vulkan-headers vulkan-tools
+```
+
 ## Installing Heroic Game Launcher flathub
 
 ```
