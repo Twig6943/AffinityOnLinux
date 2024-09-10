@@ -2,6 +2,16 @@
 
 Head to the github and Download the newest release [Here](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) 
 
+## Downloading Affinity 
+
+[Affinity Designer](https://store.serif.com/update/windows/designer/2/)
+
+[Affinity Photo](https://store.serif.com/update/windows/photo/2/)
+
+[Affinity Publisher](https://store.serif.com/update/windows/publisher/2/)
+
+From the Drop down Choose the exe
+
 ## Installing Heroic Game Launcher flathub
 
 ```
