@@ -144,7 +144,7 @@ Edit
 App/Game
 ```
 
-26.Change the executable to 
+Next Change the executable to 
 
 ```
 drive_c/Program Files/Affinity/Photo 2/Photo.exe
