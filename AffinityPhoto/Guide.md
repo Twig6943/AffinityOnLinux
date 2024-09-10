@@ -1,64 +1,165 @@
-1.Install ElementalWarrior's wine fork's binaries (https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases)
+## How to Install Affinity Wine
 
-2.Install heroic games launcher (AppImage/Flatpak recommended)
+Head to the github and Download the newest release [Here](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) 
 
-3.Exract the ElementalWarrior's wine fork's binaries to heroic games launcher's wine directory
+## Installing Heroic Game Launcher flathub
 
-AppImage:/home/USER/.config/heroic/tools/wine
+```
+flatpak install flathub com.heroicgameslauncher.hgl
+```
+## Fedora 
 
-Flatpak:/home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
+```
+sudo dnf in lutris
+```
+## Arch Linux
 
-4.Open up heroic games launcher and then click on "add game"
+```
+sudo pacman -S lutris
+```
+## Ubuntu/Debian
 
-5.Name it whatever you want
+```
+sudo pacman -S lutris
+```
+## Installing Affinity Linux's Prebuilt Wine
 
-6.Set the wine version to ElementalWarriorWine
+Extract the Elemental Warrior's Pre-built wine binaries to Heroic/Lutris wine directory
 
-7.Select the setup .exe you've downloaded from affinity's website as the executable
+```
+/home/USER/.config/heroic/tools/wine
+```
 
-8.Click Finish
+## Flatpak's Wine location
 
-9.In order to initialize the prefix run the setup file from heroic. (It'll probably crash wait for it to crash if it somehow opens up close it yourself)
+```
+/home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
+```
+## Settings Up Heroic/Lutris For Affinity
 
-10.Right click on affinity on heroic and open up its settings
+Open up Heroic/lutris and then click on 
 
-11.Scroll down until you see winetricks & then click on it
+```
+add game
+``` 
 
-12.Search & install these dependencies;
+Or for Lutris the 
 
+```
++ Button
+``` 
+and at the bottom 
+
+```
+Add Locally Install Game
+```
+
+Name it According to the Affinity app you are using
+
+```
+Affinity Photo
+```
+
+```
+Affinity Designer
+```
+```
+Affinity Publisher
+```
+## Setting the Wine Version
+
+Set the wine version to ElementalWarriorWine
+
+## Selecting the Programs .exe According to what you Want to Install
+
+Select the setup .exe you've downloaded from affinity's website as the executable
+
+Click 
+```
+Finish
+```
+## Initialize the prefix
+
+In order to initialize the prefix run the setup file from heroic. (It'll probably crash wait for it to crash if it somehow opens up close it yourself)
+
+## Setting Up Affinity Wine Settings and Winetricks
+
+* Right click on affinity on heroic and open up its settings
+
+* Scroll down until you see winetricks & then click on it
+
+* Search & install these dependencies;
+```
 dotnet48
-
+```
+```
 corefonts
-
+```
 (Wait while its installing the dependencies. Its %90 not stuck but rather taking its time!!!)
 
-14.Click on "OPEN WINETRICKS GUI"
+Click on 
+```
+OPEN WINETRICKS GUI
+```
+Select 
+```
+Select the default wineprefix
+```
+Select 
+```
+Change settings
+```
+Toggle 
+```
+win11
+```
+Toggle 
 
-15.Select "Select the default wineprefix"
+```
+renderer=vulkan
+```
+and click OK
 
-16.Select "Change settings"
+Keep pressing "Cancel" till the winetricks window closes
 
-17.Toggle "win11"
+Close heroic games launcher's settings window
 
-18.Toggle "renderer=vulkan" and click OK
+## Placing WinMetadata
 
-19.Keep pressing "Cancel" till the winetricks window closes
+Unzip [WinMetadata.zip](https://archive.org/download/win-metadata/WinMetadata.zip)
 
-20.Close heroic games launcher's settings window
+to $HOME/.Affinitywine/drive_c/windows/system32
 
-21.Unzip WinMetadata.zip to drive_c/windows/system32 (https://archive.org/download/win-metadata/WinMetadata.zip)
+## Running Affinity Setup and Installing Photo/Designer/Publisher
 
-22.Press launch and the setup should work
+Press launch and the setup should work
 
-23.Once its done installing right click to affinity on heroic and go to the details tab
+Once its done installing right click to affinity on heroic and go to the details tab
 
-24.Click on the 3 dots (located on the right top corner)
+Click on the 3 dots (located on the right top corner)
 
-25.Edit App/Game
+Edit 
 
-26.Change the executable to drive_c/Program Files/Affinity/Photo 2/Photo.exe
+```
+App/Game
+```
 
-27.Click finish & launch it
+26.Change the executable to 
+
+```
+drive_c/Program Files/Affinity/Photo 2/Photo.exe
+```
+```
+drive_c/Program Files/Affinity/Designer 2/Designer.exe
+```
+
+```
+drive_c/Program Files/Affinity/Publisher 2/Publisher.exe
+```
+
+Click finish & launch it.
+
+## Trouble Shooting
 
 (Change the settings in the wine tab if it doesn't work or if you have gpu glitches (it should work fine tho) )
 
@@ -85,6 +186,7 @@ corefonts
 
 [Ardishco](https://github.com/raidenovich)
 
+```
 Deviaze
 
 Kemal
@@ -94,3 +196,4 @@ Jacazimbo <3
 Kharoon
 
 Jediclank134
+```
