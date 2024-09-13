@@ -1,3 +1,5 @@
+[ :x: ] Guide rewrite
+
 [ :x: ] Script rewrite
 
 [ :x: ] OpenCL for Amd/Intel gpus (waiting ElementalWarrior)
