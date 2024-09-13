@@ -1,4 +1,4 @@
-[ ✔️: ] Guide rewrite
+[ ✔️ ] Guide rewrite
 
 [ :x: ] Script rewrite
 
