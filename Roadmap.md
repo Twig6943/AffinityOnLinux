@@ -1,7 +1,7 @@
 [ ✔️ ] Guide rewrite
 
-[ :x: ] Script rewrite
+[ ❌ ] Script rewrite
 
-[ :x: ] OpenCL for Amd/Intel gpus (waiting ElementalWarrior)
+[ ❌ ] OpenCL for Amd/Intel gpus (waiting ElementalWarrior)
 
-[ :x: ] Get the whole winmetadata thing sorted out. ( issue #6 )
+[ ❌ ] Get the whole winmetadata thing sorted out. ( issue #6 )
