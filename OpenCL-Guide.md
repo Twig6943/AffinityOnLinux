@@ -21,3 +21,5 @@
 5. Launch Affinity Apps
 
 Run the Affinity apps and verify OpenCL is working by checking the preferences for hardware acceleration.
+
+(OCL is in very early stages so it might not work even if you have an nvidia gpu)
