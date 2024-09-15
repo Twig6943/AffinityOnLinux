@@ -1,4 +1,4 @@
-[ ✔️ ] Guide rewritee
+[ ✔️ ] Guide rewrite
 
 [ ❌ ] Script rewrite
 
