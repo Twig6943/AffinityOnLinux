@@ -4,7 +4,7 @@
 
 A repository that helps users get affinity software working on GNU/Linux 🐧
 
-[Discord 💬](https://discord.gg/t5V9ecpJWZ)
+[Discord 💬 (join for support)](https://discord.gg/t5V9ecpJWZ)
 
 # [Affinity Apps 📢](https://affinity.serif.com)
 
