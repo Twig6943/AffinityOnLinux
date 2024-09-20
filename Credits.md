@@ -1,6 +1,6 @@
 # Contributors 
 
-[ElementalWarrior](https://github.com/ElementalWarrior)
+[ElementalWarrior](https://github.com/ElementalWarrior) (Owner of the wine fork)
 
 Twig6843 (me ig)
 
