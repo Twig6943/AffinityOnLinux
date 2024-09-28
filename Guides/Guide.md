@@ -126,7 +126,11 @@ dotnet48
 ```
 ```
 corefonts
+``````
 ```
+vcrun2015
+```
+
 (Wait while its installing the dependencies. Its %90 not stuck but rather taking its time!!!)
 
 Click on 
