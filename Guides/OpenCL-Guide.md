@@ -1,25 +1,27 @@
-1. Install opencl Drivers for your nvidia gpu (amd & intel are currently unsupported)
+## Installing OpenCL Drivers for Nvidia GPU (AMD & Intel are currently unsupported)
 
-    Ensure the gpu drivers and opencl drivers are installed for your GPU.
-   
-    e.g. for Arch & Nvidia:
-   
-    sudo pacman -S opencl-nvidia
+Ensure the GPU drivers and OpenCL drivers are installed for your GPU.
 
-3. Install VKD3D-Proton
+For example, on **Arch Linux** & **Nvidia**:
+```
+sudo pacman -S opencl-nvidia
+```
 
-    download vkd3d-proton to Lutris from [ProtonPlus](https://github.com/Vysp3r/ProtonPlus)
-    (doing the same thing might work with Heroic games launcher to)
+## Installing VKD3D-Proton
 
-4. Configure Lutris
+Download VKD3D-Proton for Lutris from [ProtonPlus](https://github.com/Vysp3r/ProtonPlus) or [Protonupqt](https://github.com/DavidoTek/ProtonUp-Qt)
 
-    Open Lutris and go to the game or app's configuration settings.
-    Navigate to Runner Options.
-    Select vkd3d-proton as the vkd3d version.
-    Disable DXVK.
+(This might also work with Heroic Games Launcher.)
 
-5. Launch Affinity Apps
+## Configuring Lutris
+
+1. Open Lutris and go to the game's or app's configuration settings.
+2. Navigate to **Runner Options**.
+3. Select **vkd3d-proton** as the VKD3D version.
+4. Disable **DXVK**.
+
+## Launching Affinity Apps
 
 Run the Affinity apps and verify OpenCL is working by checking the preferences for hardware acceleration.
 
-(OCL is in very early stages so it might not work even if you have an nvidia gpu)
+(Note: OpenCL is in the very early stages and might not work, even if you have an Nvidia GPU.)
