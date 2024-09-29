@@ -15,11 +15,9 @@ Unsane (Currently rewriting the script <3) (Some real work on god)
 ..and all the 20+ testers
 
 # Others/My homies
-[Ardishco](https://github.com/ardishko) (Fun fact: I've made this project just cuz of him he a real one on god)
+[Ardishco](https://github.com/ardishko) (🗿)
 
-Jacazimbo (Zimbo 😎)
-
-İsmet yasin (😎🚬💸🔫)
+Jacazimbo (Zimbo 😎) 
 
 Lyrics (Real one)
 
