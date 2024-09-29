@@ -1,6 +1,6 @@
 # AffinityOnLinux 🌹
 
-<img src="https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityOnLinux.png?raw=true" alt="Affinity on Linux" width="250"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png" alt="Affinity on Linux" width="250"/>
 
 A repository that helps users get affinity software working on GNU/Linux 🐧
 
