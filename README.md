@@ -13,6 +13,7 @@ A repository that helps users get affinity software working on GNU/Linux 🐧
 <img src="https://github.com/user-attachments/assets/8ea7f748-c455-4ee8-9a94-775de40dbbf3" alt="Affinity_Designer_2-logo" width="200"/>
 
 <img src="https://github.com/user-attachments/assets/c7b70ee5-58e3-46c6-b385-7c3d02749664" alt="Affinity_Photo_V2_icon" width="200"/>
+## List of contents
 
 [Written Guide 📕](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Guide.md)
 
@@ -20,7 +21,13 @@ This guide helps you Step by step by hand using Heroic Games launcher or Lutris
 
 [Dependencies for Different Package Managers](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Guide.md#required-dependencies)
 
-If you are Having issues Check this Part of the guide.
+If you are Having issues with the written guide, check this part of the guide for distro-specific fixes.
+
+# Install Scripts 🤖
+
+If you don't want to tinker, there are automated install scripts available below. Just copy and paste the commands into your terminal and execute them.
+
+WARNING: INSTALL SCRIPTS ARE NOT GUARANTEED TO WORK FOR EVERYONE
 
 [Affinity Photo 🤖](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityScripts/AffinityPhoto.sh)
 
@@ -40,7 +47,7 @@ bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/ma
 bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityScripts/AffinityPublisher.sh)"
 ```
 
-# [Other software on GNU/Linux 💻](https://github.com/Twig6943/AffinityOnLinux/blob/main/OtherSoftware-on-Linux.md)
-# [Known issues ⚠️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Known-issues.md)
-# [Roadmap 🗺️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Roadmap.md)
-# [Credits 📜 ](https://github.com/Twig6943/AffinityOnLinux/blob/main/Credits.md)
+[Other software on GNU/Linux 💻](https://github.com/Twig6943/AffinityOnLinux/blob/main/OtherSoftware-on-Linux.md)
+[Known issues ⚠️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Known-issues.md)
+[Roadmap 🗺️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Roadmap.md)
+[Credits 📜 ](https://github.com/Twig6943/AffinityOnLinux/blob/main/Credits.md)
