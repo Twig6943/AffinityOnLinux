@@ -48,6 +48,8 @@ bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/ma
 bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityScripts/AffinityPublisher.sh)"
 ```
 
+### Misc
+
 [Other software on GNU/Linux 💻](https://github.com/Twig6943/AffinityOnLinux/blob/main/OtherSoftware-on-Linux.md)
 
 [Known issues ⚠️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Known-issues.md)
