@@ -13,6 +13,7 @@ A repository that helps users get affinity software working on GNU/Linux 🐧
 <img src="https://github.com/user-attachments/assets/8ea7f748-c455-4ee8-9a94-775de40dbbf3" alt="Affinity_Designer_2-logo" width="200"/>
 
 <img src="https://github.com/user-attachments/assets/c7b70ee5-58e3-46c6-b385-7c3d02749664" alt="Affinity_Photo_V2_icon" width="200"/>
+
 ## List of contents
 
 [Written Guide 📕](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Guide.md)
