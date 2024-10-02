@@ -12,10 +12,12 @@ Unsane (Currently rewriting the script <3) (Some real work on god)
 
 [Andrewbaker-uk](https://github.com/andrewbaker-uk?tab=repositories) (Some PRS here and there)
 
+[ardishco](https://github.com/ardishko) (ardishco was here) (hello i am very cool and funny)
+
 ..and all the 20+ testers
 
 # Others/My homies
-[Ardishco](https://github.com/ardishko) (🗿)
+[ardishco](https://github.com/ardishko) (🗿)
 
 Jacazimbo (Zimbo 😎) 
 

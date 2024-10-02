@@ -34,6 +34,17 @@ sudo dnf install alsa-lib-devel cups-devel dbus-libs fontconfig-devel freetype-d
 sudo zypper install alsa-lib-devel cups-devel dbus-1-devel flex fontconfig-devel freetype-devel glibc-devel-32bit gnutls-devel gstreamer-devel gstreamer-plugins-base-devel libgphoto2-devel libOSMesa-devel libunwind-devel libusb-1_0-devel libusb-compat-devel libX11-devel libXcomposite-devel libXcursor-devel libXext-devel libXfixes-devel libXi-devel libXrandr-devel libXrender-devel Mesa-libGL-devel mingw32-cross-gcc mingw32-cross-wine mingw32-gcc mingw64-cross-gcc mingw64-cross-wine mingw64-gcc ocl-icd-devel samba-devel sane-backends-devel SDL2-devel vulkan-devel vulkan-headers vulkan-tools
 ```
 
+## Acquiring Pre-built Wine binaries
+
+As affinity is a bit of a complex program, it requires that you run it with a fork of WINE tailor-made for it.
+
+Here are the currently available options:
+
+[ElementalWarriorWine](https://gitlab.winehq.org/ElementalWarrior/wine)
+
+(This fork's repo doesnt contain binaries and as such, pre-built binaries can be found [here](https://github.com/Twig6943/ElementalWarrior-Wine-binaries/releases/tag/binary-release-1.0)
+
+
 ## Installing Heroic Game Launcher flathub
 
 ```
@@ -56,7 +67,7 @@ sudo apt install lutris
 ```
 ## Installing Affinity Linux's Prebuilt Wine
 
-Extract the Elemental Warrior's Pre-built wine binaries to Heroic/Lutris wine directory
+Extract the Elemental Warrior's Pre-built wine binaries to Heroic's tools directory
 
 ```
 /home/USER/.config/heroic/tools/wine
@@ -67,9 +78,9 @@ Extract the Elemental Warrior's Pre-built wine binaries to Heroic/Lutris wine di
 ```
 /home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
 ```
-## Settings Up Heroic/Lutris For Affinity
+## Settings Up Heroic For Affinity
 
-Open up Heroic/lutris and then click on 
+Open up Heroic and then click on 
 
 ```
 add game
@@ -195,41 +206,25 @@ drive_c/Program Files/Affinity/Publisher 2/Publisher.exe
 
 Click finish & launch it.
 
-## Trouble Shooting
+## Troubleshooting
 
 (Change the settings in the wine tab if it doesn't work or if you have gpu glitches (it should work fine tho) )
 
 # Optional wine dark theme 🍷
-1.Download this file https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/wine-dark-theme.reg
+1. Download this file https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/wine-dark-theme.reg
 
-2.Right click to your affinity app and go to settings
+2. Right click on your affinity app and go to `Settings`
 
-3.Click to winetricks
+3. Click `winetricks`
 
-4.Click to OPEN WINETRICKS GUI
+4. Click `OPEN WINETRICKS GUI`
 
-5.Select default prefix
+5. Select the default prefix
 
-6.Run regedit
+6. Run `regedit`
 
-7.Registry>Import registry file
+7. Go to `Registry`, then click `Import registry file`
 
-8.Pick the file you've downloaded earlier (wine-dark-theme.reg)
+8. Pick the file you've downloaded earlier (wine-dark-theme.reg)
 
-9.You should now have dark theme working
-
-### Special Thanks
-
-[Ardishco](https://github.com/raidenovich)
-
-```
-Deviaze
-
-Kemal
-
-Jacazimbo <3
-
-Kharoon
-
-Jediclank134
-```
+9. Now you've got a dark theme!

@@ -2,7 +2,7 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png" alt="Affinity on Linux" width="250"/>
 
-A repository that helps users get affinity software working on GNU/Linux 🐧
+A repository that contains information on how to get affinity software working on GNU/Linux with WINE 🐧
 
 [Discord 💬 (join for support)](https://discord.gg/t5V9ecpJWZ)
 
@@ -24,7 +24,7 @@ This guide helps you Step by step by hand using Heroic Games launcher or Lutris
 
 If you are Having issues with the written guide, check this part of the guide for distro-specific fixes.
 
-# Install Scripts 🤖
+## Install Scripts 🤖
 
 If you don't want to tinker, there are automated install scripts available below. Just copy and paste the commands into your terminal and execute them.
 

@@ -2,10 +2,12 @@
 
 Ensure the GPU drivers and OpenCL drivers are installed for your GPU.
 
-For example, on **Arch Linux** & **Nvidia**:
+For example, on **Arch Linux** while running an **Nvidia card**, you need to run:
 ```
 sudo pacman -S opencl-nvidia
 ```
+
+to get OpenCL drivers.
 
 ## Installing VKD3D-Proton
 
