@@ -49,6 +49,9 @@ bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/ma
 ```
 
 [Other software on GNU/Linux 💻](https://github.com/Twig6943/AffinityOnLinux/blob/main/OtherSoftware-on-Linux.md)
+
 [Known issues ⚠️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Known-issues.md)
+
 [Roadmap 🗺️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Roadmap.md)
+
 [Credits 📜 ](https://github.com/Twig6943/AffinityOnLinux/blob/main/Credits.md)
