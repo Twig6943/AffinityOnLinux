@@ -1,57 +1,68 @@
-## Requirements
-Flatpak bottles
+1.Install ElementalWarrior's wine fork's binaries (https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases)
 
-A GPU that supports Vulkan (OpenGL might also work fine but vulkan is recommended.)
+2.Install heroic games launcher (AppImage/Flatpak recommended)
 
-## Downloading Affinity 
+3.Exract the ElementalWarrior's wine fork's binaries to heroic games launcher's wine directory
 
-[Affinity Designer](https://store.serif.com/update/windows/designer/2/)
+AppImage:/home/USER/.config/heroic/tools/wine
 
-[Affinity Photo](https://store.serif.com/update/windows/photo/2/)
+Flatpak:/home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
 
-[Affinity Publisher](https://store.serif.com/update/windows/publisher/2/)
+4.Open up heroic games launcher and then click on "add game"
 
-From the Drop down Choose the x64 .exe
+5.Name it whatever you want
 
-## Acquiring Pre-built Wine binaries
+6.Set the wine version to ElementalWarriorWine
 
-As affinity is a bit of a complex program, it requires that you run it with a fork of WINE tailor-made for it.
+7.Select the setup .exe you've downloaded from affinity's website as the executable
 
-Here are the currently available options:
+8.Click Finish
 
-[ElementalWarriorWine](https://github.com/Twig6943/ElementalWarrior-Wine-binaries/releases/tag/binary-release-1.0) (Recommended)
+9.In order to initialize the prefix run the setup file from heroic. (It'll probably crash wait for it to crash if it somehow opens up close it yourself)
 
-[Wine-TKG-Affinity](https://github.com/daegalus/wine-tkg-affinity/actions)
+10.Right click on affinity on heroic and open up its settings
 
-## Installing Bottles from flathub
+11.Scroll down until you see winetricks & then click on it
 
-```
-sudo flatpak install flathub com.usebottles.bottles
-```
+12.Search & install these dependencies;
 
-## Extracting the wine made for Affinity Apps to the right directory 
+allfonts
 
-Extract the Pre-built wine binaries you've downloaded earlier to Bottles' runners directory
+vcredist2015
 
-```
-/home/$USER/.var/app/com.usebottles.bottles/data/bottles/runners
-```
+dotnet48
 
-Start Bottles
+(Wait while its installing the dependencies. Its %90 not stuck but rather taking its time!!!)
 
-Press Import
+14.Click on "OPEN WINETRICKS GUI"
 
-![image](https://github.com/user-attachments/assets/da202e71-3d06-43a0-86df-0e829023e056)
+15.Select "Select the default wineprefix"
 
-Press configuration
+16.Select "Change settings"
 
-![image](https://github.com/user-attachments/assets/18331f53-c3bc-4582-8200-8fa203ff40eb)
+17.Toggle "win11"
 
-Select the [Bottles.yml]()
+18.Toggle "renderer=vulkan" and click OK
+
+19.Keep pressing "Cancel" till the winetricks window closes
+
+20.Close heroic games launcher's settings window
+
+21.Unzip WinMetadata.zip to drive_c/windows/system32 (https://archive.org/download/win-metadata/WinMetadata.zip)
+
+22.Press launch and the setup should work
+
+23.Once its done installing right click to affinity on heroic and go to the details tab
+
+24.Click on the 3 dots (located on the right top corner)
+
+25.Edit App/Game
+
+26.Change the executable to drive_c/Program Files/Affinity/APPNAMEHERE/APPNAMEHERE.exe
+
+27.Click finish & launch it
+
+As for the settings:
+![image](https://github.com/user-attachments/assets/8486829e-b2d6-40b3-a38e-a2304b842775)
 
 
-## Troubleshooting
-
-(Change the settings in the wine tab if it doesn't work or if you have gpu glitches (it should work fine tho) )
-
-# Optional wine dark theme 🍷
