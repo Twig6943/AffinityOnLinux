@@ -18,39 +18,11 @@ A repository that contains information on how to get affinity software working o
 
 [Written Guide 📕](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Guide.md)
 
-This guide helps you Step by step by hand using Heroic Games launcher or Lutris
-
-[Dependencies for Different Package Managers](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Guide.md#required-dependencies)
-
-If you are Having issues with the written guide, check this part of the guide for distro-specific fixes.
-
-## Install Scripts 🤖
-
-If you don't want to tinker, there are automated install scripts available below. Just copy and paste the commands into your terminal and execute them.
-
-WARNING: INSTALL SCRIPTS ARE NOT GUARANTEED TO WORK FOR EVERYONE
-
-[Affinity Photo 🤖](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityScripts/AffinityPhoto.sh)
-
-```
-bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityScripts/AffinityPhoto.sh)"
-```
-
-[Affinity Designer 🤖](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityScripts/AffinityDesigner.sh)
-
-```
-bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityScripts/AffinityDesigner.sh)"
-```
-
-[Affinity Publisher 🤖](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityScripts/AffinityPublisher.sh)
-
-```
-bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityScripts/AffinityPublisher.sh)"
-```
+This guide helps you Step by step by hand using Heroic Games launcher
 
 ### Misc
 
-[Other software on GNU/Linux 💻](https://github.com/Twig6943/AffinityOnLinux/blob/main/OtherSoftware-on-Linux.md)
+[Other software on GNU/Linux 💻](https://github.com/Twig6943/AffinityOnLinux/blob/main/OtherSoftware/OtherSoftware-on-Linux.md)
 
 [Known issues ⚠️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Known-issues.md)
 
