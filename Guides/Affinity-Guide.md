@@ -72,5 +72,5 @@ As for the settings:
 
 ![image](https://github.com/user-attachments/assets/a274d0d6-538e-4288-9365-73bdf4fa2e16)
 
-(Run [this](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/wine-dark-theme.reg) inside the prefix if you want to have dark theme.)
+(Run [this registry file](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/wine-dark-theme.reg) inside the prefix if you want to have dark theme.)
 
