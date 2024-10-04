@@ -1,76 +1,101 @@
-1.Install desired wine version
+# How to Set Up Wine for Affinity on Heroic Games Launcher
 
-[ElementalWarrior](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended)
+## 1. Install Desired Wine Version
 
-[Wine-TKG-Affinity](https://github.com/daegalus/wine-tkg-affinity)
+Choose one of the following Wine versions:
 
-2.Install heroic games launcher (AppImage/Flatpak recommended)
+- [**ElementalWarrior**](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended)
+- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity)
 
-3.Exract the wine binaries you've downloaded earlier to heroic games launcher's wine directory
+---
 
-AppImage: /home/USER/.config/heroic/tools/wine
+## 2. Install Heroic Games Launcher
 
-Flatpak: /home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
+Install Heroic Games Launcher using either **AppImage** or **Flatpak**.
 
-4.Open up heroic games launcher and then click on "add game"
+---
 
-5.Name it whatever you want
+## 3. Extract Wine Binaries
 
-6.Set the wine version to ElementalWarriorWine/Wine-TKG-Affinity
+Extract the Wine binaries you downloaded earlier to Heroic Games Launcher’s Wine directory:
 
-7.Select the x64 setup .exe you've downloaded from affinity's website as the executable
+- **AppImage:** `/home/USER/.config/heroic/tools/wine`
+- **Flatpak:** `/home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine`
 
-8.Click Finish
+---
 
-9.In order to initialize the prefix run the setup file from heroic. (It'll probably crash wait for it to crash if it somehow opens up close it yourself)
+## 4. Add Game in Heroic Games Launcher
 
-10.Right click on affinity on heroic and open up its settings
+1. Open Heroic Games Launcher and click on **Add Game**.
+2. Name the game as you wish.
+3. Set the Wine version to **ElementalWarriorWine** or **Wine-TKG-Affinity**.
+4. Select the x64 setup `.exe` you downloaded from Affinity's website as the executable.
+5. Click **Finish**.
 
-11.Scroll down until you see winetricks & then click on it
+---
 
-12.Search & install these dependencies;
+## 5. Initialize the Wine Prefix
 
-corefonts/allfonts (its up to you to decide)
+1. Run the setup file from Heroic to initialize the prefix.
+   - It may crash. If it somehow runs successfully, close it manually.
 
-vcrun2015
+---
 
-dotnet48
+## 6. Configure Dependencies with Winetricks
 
-(Wait while its installing the dependencies. Its %90 not stuck but rather taking its time!!!)
+1. Right-click on the game in Heroic and go to **Settings**.
+2. Scroll down and click on **Winetricks**.
+3. Search and install the following dependencies:
+    - `corefonts` / `allfonts` (Your choice)
+    - `vcrun2015`
+    - `dotnet48`
+4. Wait for the dependencies to install. Be patient—it's not stuck, just taking time.
 
-14.Click on "OPEN WINETRICKS GUI"
+---
 
-15.Select "Select the default wineprefix"
+## 7. Adjust Wine Settings
 
-16.Select "Change settings"
+1. Click on **OPEN WINETRICKS GUI**.
+2. Select **Select the default wineprefix**.
+3. Choose **Change settings**.
+4. Enable the following settings:
+    - **win11**
+    - **renderer=vulkan**
+5. Click **OK** and keep pressing **Cancel** until the Winetricks window closes.
 
-17.Toggle "win11"
+---
 
-18.Toggle "renderer=vulkan" and click OK
+## 8. Install WinMetadata
 
-19.Keep pressing "Cancel" till the winetricks window closes
+1. Unzip the `WinMetadata` folder from the [WinMetadata.zip file](https://archive.org/download/win-metadata/WinMetadata.zip) into `drive_c/windows/system32`.
 
-20.Close heroic games launcher's settings window
+---
 
-21.Unzip the WinMetadata folder inside WinMetadata.zip to drive_c/windows/system32 (https://archive.org/download/win-metadata/WinMetadata.zip)
+## 9. Complete the Setup
 
-22.Press launch and the setup should work
+1. Press **Launch** and complete the setup.
+2. Once installation is finished:
+    - Right-click on the game in Heroic and go to the **Details** tab.
+    - Click on the three dots (top-right corner) and select **Edit App/Game**.
+    - Change the executable to:  
+      `drive_c/Program Files/Affinity/APPNAMEHERE/APPNAMEHERE.exe`
+    - Click **Finish** and **Launch** the game.
 
-23.Once its done installing right click to affinity on heroic and go to the details tab
+---
 
-24.Click on the 3 dots (located on the right top corner)
+## 10. Performance Settings
 
-25.Edit App/Game
+To optimize performance and reduce latency, adjust these settings:
 
-26.Change the executable to drive_c/Program Files/Affinity/APPNAMEHERE/APPNAMEHERE.exe
+- **Other Tab:** Check the **Game Mode** option.
 
-27.Click finish & launch it
+Quote from **darkside99**:  
+*"These are the best settings for improving performance and reducing latency."*
 
-As for the settings:
+![Performance Settings](https://github.com/user-attachments/assets/a274d0d6-538e-4288-9365-73bdf4fa2e16)
 
-"those are the best settings wich improve performance and reduce the latency  and on the Other tab check the gamemode on" -darkside99
+---
 
-![image](https://github.com/user-attachments/assets/a274d0d6-538e-4288-9365-73bdf4fa2e16)
+## 11. Optional: Enable Dark Theme
 
-(Run [this registry file](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/wine-dark-theme.reg) inside the prefix if you want to have dark theme.)
-
+To enable the dark theme, run [this registry file](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/wine-dark-theme.reg) inside the Wine prefix.
