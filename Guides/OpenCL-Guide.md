@@ -1,3 +1,5 @@
+## THIS IS REALLY EXPERIMENTAL (NOT REALLY SUPPORTED AS OF RN)
+
 ## Installing OpenCL Drivers for Nvidia GPU (AMD & Intel are currently unsupported)
 
 Ensure the GPU drivers and OpenCL drivers are installed for your GPU.
