@@ -1,6 +1,6 @@
 # AffinityOnLinux 🌹
 
-<img src="https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/affinityonlinux.svg" alt="Affinity on Linux" width="250"/>
+<img src="https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Assets/affinitytux.svg" alt="Affinity on Linux" width="250"/>
 
 A repository that contains information on how to get Affinity software working on GNU/Linux with WINE 🐧
 
