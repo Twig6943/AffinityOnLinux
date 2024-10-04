@@ -11,7 +11,7 @@ to get OpenCL drivers.
 
 ## Installing VKD3D-Proton
 
-Download VKD3D-Proton for Lutris from [ProtonPlus](https://github.com/Vysp3r/ProtonPlus) or [Protonupqt](https://github.com/DavidoTek/ProtonUp-Qt)
+Download VKD3D-Proton for Bottles from [ProtonPlus](https://github.com/Vysp3r/ProtonPlus) or [Protonupqt](https://github.com/DavidoTek/ProtonUp-Qt)
 
 (This might also work with Heroic Games Launcher.)
 
