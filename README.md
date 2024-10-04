@@ -16,7 +16,7 @@ A repository that contains information on how to get affinity software working o
 
 ## List of contents
 
-[Written Guide 📕](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Guide.md)
+[Written Guide 📕](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Affinity-Guide.md)
 
 This guide helps you Step by step by hand using Heroic Games launcher
 
