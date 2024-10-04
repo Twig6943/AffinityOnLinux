@@ -52,7 +52,7 @@ dotnet48
 
 20.Close heroic games launcher's settings window
 
-21.Unzip the folder inside WinMetadata.zip to drive_c/windows/system32 (https://archive.org/download/win-metadata/WinMetadata.zip)
+21.Unzip the WinMetadata folder inside WinMetadata.zip to drive_c/windows/system32 (https://archive.org/download/win-metadata/WinMetadata.zip)
 
 22.Press launch and the setup should work
 
