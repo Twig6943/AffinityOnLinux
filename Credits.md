@@ -19,6 +19,8 @@ Unsane (Currently rewriting the script <3) (Some real work on god)
 # Others/My homies
 [ardishco](https://github.com/ardishko) (🗿)
 
+Burak ammmmmmmmmmınakeeeeee sinay (🔥🔥🔥)
+
 Jacazimbo (Zimbo 😎) 
 
 Lyrics (Real one)
