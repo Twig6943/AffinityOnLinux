@@ -18,7 +18,7 @@ Flatpak: /home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/win
 
 6.Set the wine version to ElementalWarriorWine/Wine-TKG-Affinity
 
-7.Select the setup .exe you've downloaded from affinity's website as the executable
+7.Select the x64 setup .exe you've downloaded from affinity's website as the executable
 
 8.Click Finish
 
