@@ -68,7 +68,9 @@ dotnet48
 
 As for the settings:
 
-![image](https://github.com/user-attachments/assets/8486829e-b2d6-40b3-a38e-a2304b842775)
+"those are the best settings wich improve performance and reduce the latency  and on the Other tab check the gamemode on" -darkside99
+
+![image](https://github.com/user-attachments/assets/a274d0d6-538e-4288-9365-73bdf4fa2e16)
 
 (Run [this](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/wine-dark-theme.reg) inside the prefix if you want to have dark theme.)
 
