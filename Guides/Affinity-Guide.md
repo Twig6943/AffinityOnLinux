@@ -1,18 +1,22 @@
-1.Install ElementalWarrior's wine fork's binaries (https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases)
+1.Install desired wine version
+
+[ElementalWarrior](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended)
+
+[Wine-TKG-Affinity](https://github.com/daegalus/wine-tkg-affinity)
 
 2.Install heroic games launcher (AppImage/Flatpak recommended)
 
-3.Exract the ElementalWarrior's wine fork's binaries to heroic games launcher's wine directory
+3.Exract the wine binaries you've downloaded earlier to heroic games launcher's wine directory
 
-AppImage:/home/USER/.config/heroic/tools/wine
+AppImage: /home/USER/.config/heroic/tools/wine
 
-Flatpak:/home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
+Flatpak: /home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
 
 4.Open up heroic games launcher and then click on "add game"
 
 5.Name it whatever you want
 
-6.Set the wine version to ElementalWarriorWine
+6.Set the wine version to ElementalWarriorWine/Wine-TKG-Affinity
 
 7.Select the setup .exe you've downloaded from affinity's website as the executable
 
@@ -26,9 +30,9 @@ Flatpak:/home/USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine
 
 12.Search & install these dependencies;
 
-allfonts
+corefonts/allfonts (its up to you to decide)
 
-vcredist2015
+vcrun2015
 
 dotnet48
 
@@ -48,7 +52,7 @@ dotnet48
 
 20.Close heroic games launcher's settings window
 
-21.Unzip WinMetadata.zip to drive_c/windows/system32 (https://archive.org/download/win-metadata/WinMetadata.zip)
+21.Unzip the folder inside WinMetadata.zip to drive_c/windows/system32 (https://archive.org/download/win-metadata/WinMetadata.zip)
 
 22.Press launch and the setup should work
 
@@ -63,6 +67,8 @@ dotnet48
 27.Click finish & launch it
 
 As for the settings:
+
 ![image](https://github.com/user-attachments/assets/8486829e-b2d6-40b3-a38e-a2304b842775)
 
+(Run [this](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/wine-dark-theme.reg) inside the prefix if you want to have dark theme.)
 
