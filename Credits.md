@@ -21,6 +21,8 @@ Unsane (Currently rewriting the script <3) (Some real work on god)
 
 Burak ammmmmmmmmmınakeeeeee sinay (🔥🔥🔥)
 
+Düğün Magandası
+
 Jacazimbo (Zimbo 😎) 
 
 Lyrics (Real one)
