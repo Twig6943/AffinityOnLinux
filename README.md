@@ -4,7 +4,11 @@
 
 A repository that contains information on how to get Affinity software working on GNU/Linux with WINE 🐧
 
-[Discord 💬 (join for support)](https://discord.gg/t5V9ecpJWZ)
+# Join for support 🤝
+
+[Matrix 💬](https://matrix.to/#/#affinityonlinux:matrix.org)
+
+[Discord 💬](https://discord.gg/t5V9ecpJWZ)
 
 [Affinity Apps 📢](https://affinity.serif.com)
 
