@@ -5,19 +5,18 @@
 Choose one of the following Wine versions:
 
 - [**ElementalWarrior**](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases)
-- 
 - [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/actions)
 
 ## 2. Install Bottles (Flatpak recommended)
 
-Install Bottles using either **AppImage** or **Flatpak**.
+Install Bottles using either **Flatpak** or **AppImage**.
 
-Flatpak: https://flathub.org/apps/com.usebottles.bottles
-AppImage: https://github.com/ivan-hc/Bottles-appimage/releases
+- Flatpak: https://flathub.org/apps/com.usebottles.bottles
+- AppImage: https://github.com/ivan-hc/Bottles-appimage/releases
 
 ## 3. Extract Wine Binaries
 
-Extract the Wine binaries you downloaded earlier to Heroic Games Launcher’s Wine directory:
+Extract the Wine binaries you downloaded earlier to Bottles’ runners directory:
 
 - **Flatpak:** `/home/$USER/.var/app/com.usebottles.bottles/data/bottles/runners`
 - **AppImage:** `/home/$USER/.local/share/bottles/runners`
@@ -26,7 +25,7 @@ Extract the Wine binaries you downloaded earlier to Heroic Games Launcher’s Wi
 
 1. Open Bottles and click on the plus icon.
 2. Set the enviroment to Custom.
-3. Import the [configuration] file
+3. Import the [configuration](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Guides/Bottles/Affinity.yml) file
 3. Set the runner to **ElementalWarriorWine** or **Wine-TKG-Affinity**.
 5. Click **Create**.
 
