@@ -1,0 +1,108 @@
+Arch: win64
+CompatData: ''
+Creation_Date: '2024-10-18 18:23:35.866173'
+Custom_Path: false
+DLL_Overrides: {}
+DXVK: dxvk-2.3.1
+Environment: Custom
+Environment_Variables: {}
+External_Programs:
+    2029b542-1bf4-4819-b54e-31410a0cbc6c:
+        arguments: null
+        dxvk: null
+        dxvk_nvapi: null
+        executable: Photo.exe
+        folder: /home/vaporsnake/.local/share/bottles/bottles/Editing/drive_c/Program
+            Files/Affinity/Photo 2
+        fsr: null
+        icon: com.usebottles.bottles-program
+        id: 2029b542-1bf4-4819-b54e-31410a0cbc6c
+        name: Affinity Photo 2
+        path: /home/vaporsnake/.local/share/bottles/bottles/Editing/drive_c/Program
+            Files/Affinity/Photo 2/Photo.exe
+        pulseaudio_latency: null
+        removed: null
+        script: null
+        virtual_desktop: null
+        vkd3d: null
+Installed_Dependencies:
+- andale32
+- arial32
+- arialb32
+- comic32
+- courie32
+- georgi32
+- impact32
+- tahoma32
+- times32
+- trebuc32
+- verdan32
+- webdin32
+- allfonts
+- dotnet40
+- dotnet48
+Language: sys
+LatencyFleX: latencyflex-v0.1.1
+NVAPI: dxvk-nvapi-v0.7.0
+Name: Editing
+Parameters:
+    custom_dpi: 96
+    decorated: true
+    discrete_gpu: false
+    dxvk: false
+    dxvk_nvapi: false
+    fixme_logs: false
+    fsr: false
+    fsr_quality_mode: none
+    fsr_sharpening_strength: 2
+    fullscreen_capture: false
+    gamemode: false
+    gamescope: false
+    gamescope_borderless: false
+    gamescope_fps: 0
+    gamescope_fps_no_focus: 0
+    gamescope_fullscreen: true
+    gamescope_game_height: 0
+    gamescope_game_width: 0
+    gamescope_scaling: false
+    gamescope_window_height: 0
+    gamescope_window_width: 0
+    latencyflex: false
+    mangohud: false
+    mouse_warp: true
+    obsvkc: false
+    pulseaudio_latency: false
+    renderer: vulkan
+    sandbox: false
+    sync: wine
+    take_focus: false
+    use_be_runtime: false
+    use_eac_runtime: false
+    use_runtime: true
+    use_steam_runtime: false
+    versioning_automatic: false
+    versioning_compression: false
+    versioning_exclusion_patterns: false
+    virtual_desktop: false
+    virtual_desktop_res: 1280x720
+    vkbasalt: false
+    vkd3d: false
+    vmtouch: false
+    vmtouch_cache_cwd: false
+Path: Editing
+Runner: ElementalWarriorWine
+RunnerPath: ''
+Sandbox:
+    share_net: false
+    share_sound: false
+State: 0
+Uninstallers: {}
+Update_Date: '2024-10-18 18:47:05.888968'
+VKD3D: vkd3d-proton-2.12
+Versioning: false
+Versioning_Exclusion_Patterns: []
+Windows: win10
+WorkingDir: ''
+data: {}
+run_in_terminal: false
+session_arguments: ''
