@@ -5,7 +5,7 @@
 Choose one of the following Wine versions:
 
 - [**ElementalWarrior**](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended)
-- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity)
+- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/actions)
 
 ---
 
