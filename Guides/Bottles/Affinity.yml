@@ -1,12 +1,12 @@
 Arch: win64
 CompatData: ''
-Creation_Date: '2024-10-18 18:23:35.866173'
+Creation_Date: '2024-10-18 16:42:58.782336'
 Custom_Path: false
 DLL_Overrides: {}
-DXVK: dxvk-2.3.1
+DXVK: dxvk-2.4.1
 Environment: Custom
 Environment_Variables: {}
-External_Programs:
+External_Programs: {}
 Installed_Dependencies:
 - andale32
 - arial32
@@ -25,8 +25,8 @@ Installed_Dependencies:
 - dotnet48
 Language: sys
 LatencyFleX: latencyflex-v0.1.1
-NVAPI: dxvk-nvapi-v0.7.0
-Name: Editing
+NVAPI: dxvk-nvapi-v0.7.1
+Name: AffinityOnLinux
 Parameters:
     custom_dpi: 96
     decorated: true
@@ -71,7 +71,7 @@ Parameters:
     vkd3d: false
     vmtouch: false
     vmtouch_cache_cwd: false
-Path: Editing
+Path: AffinityOnLinux
 Runner: ElementalWarriorWine
 RunnerPath: ''
 Sandbox:
@@ -79,11 +79,11 @@ Sandbox:
     share_sound: false
 State: 0
 Uninstallers: {}
-Update_Date: '2024-10-18 18:47:05.888968'
-VKD3D: vkd3d-proton-2.12
+Update_Date: '2024-10-18 17:12:15.757161'
+VKD3D: vkd3d-proton-2.13
 Versioning: false
 Versioning_Exclusion_Patterns: []
-Windows: win10
+Windows: win11
 WorkingDir: ''
 data: {}
 run_in_terminal: false
