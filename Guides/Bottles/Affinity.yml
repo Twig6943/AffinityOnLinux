@@ -7,24 +7,6 @@ DXVK: dxvk-2.3.1
 Environment: Custom
 Environment_Variables: {}
 External_Programs:
-    2029b542-1bf4-4819-b54e-31410a0cbc6c:
-        arguments: null
-        dxvk: null
-        dxvk_nvapi: null
-        executable: Photo.exe
-        folder: /home/vaporsnake/.local/share/bottles/bottles/Editing/drive_c/Program
-            Files/Affinity/Photo 2
-        fsr: null
-        icon: com.usebottles.bottles-program
-        id: 2029b542-1bf4-4819-b54e-31410a0cbc6c
-        name: Affinity Photo 2
-        path: /home/vaporsnake/.local/share/bottles/bottles/Editing/drive_c/Program
-            Files/Affinity/Photo 2/Photo.exe
-        pulseaudio_latency: null
-        removed: null
-        script: null
-        virtual_desktop: null
-        vkd3d: null
 Installed_Dependencies:
 - andale32
 - arial32
