@@ -23,6 +23,7 @@ Installed_Dependencies:
 - allfonts
 - dotnet40
 - dotnet48
+- vcredist2015
 Language: sys
 LatencyFleX: latencyflex-v0.1.1
 NVAPI: dxvk-nvapi-v0.7.1
