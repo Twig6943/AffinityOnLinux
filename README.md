@@ -18,13 +18,15 @@ A repository that contains information on how to get Affinity software working o
 
 [Affinity Apps 📢](https://affinity.serif.com)
 
-## List of contents
+# List of contents
 
-[Written Guide 📕](https://github.com/Twig6943/AffinityOnLinux/tree/main/Guides) (Recommended install method ✅ )
+### [Written Guide 📕](https://github.com/Twig6943/AffinityOnLinux/tree/main/Guides) (Recommended install method ✅ )
 
-[Bash install scripts 🤖](https://github.com/ryzendew/AffinityOnLinux) (These scripts are not official and are maintained by @ryzendew ❗ ) (We don't provide support for the install scripts over at our discord/matrix)
-s
-This guide helps you Step by step by hand using Bottles/Heroic Games launcher.
+This guide helps you step by step by hand using heroic games launcher/bottles.
+
+### [Bash install scripts 🤖](https://github.com/ryzendew/AffinityOnLinux) (These scripts aren't official and are maintained by @ryzendew ❗ )
+
+(We don't provide support for the install scripts over at our matrix/discord)
 
 ### Misc
 
