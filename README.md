@@ -20,7 +20,9 @@ A repository that contains information on how to get Affinity software working o
 
 ## List of contents
 
-[Written Guide 📕](https://github.com/Twig6943/AffinityOnLinux/tree/main/Guides)
+[Written Guide 📕](https://github.com/Twig6943/AffinityOnLinux/tree/main/Guides) (Recommended install method ✅ )
+
+[Bash install scripts 🤖](https://github.com/ryzendew/AffinityOnLinux) (These scripts are not official and are maintained by @ryzendew ❗ )  
 
 This guide helps you Step by step by hand using Bottles/Heroic Games launcher.
 
