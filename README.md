@@ -24,9 +24,9 @@ A repository that contains information on how to get Affinity software working o
 
 This guide helps you step by step by hand using heroic games launcher/bottles.
 
-### [Bash install scripts 🤖](https://github.com/ryzendew/AffinityOnLinux) (These scripts aren't official and are maintained by @ryzendew ❗ )
+### [Bash install scripts 🤖](https://github.com/ryzendew/AffinityOnLinux) (These scripts aren't official ❗ )
 
-(We don't provide support for the install scripts over at our matrix/discord)
+We don't provide support for the install scripts over at our matrix/discord.
 
 ### Misc
 
