@@ -1,6 +1,6 @@
 # How to Set Up Wine for Affinity on Heroic Games Launcher
 
-## 1. Install Desired Wine Version
+## 1. Download Desired Wine Version
 
 Choose one of the following Wine versions:
 
