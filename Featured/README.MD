@@ -1,1 +1,2 @@
-Stuff which were made using this project.
+# Disclaimer ❗
+Everything here was created using Affinity apps through this project.
