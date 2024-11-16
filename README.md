@@ -36,6 +36,6 @@ We don't provide support for the install scripts over at our matrix/discord.
 
 [Roadmap 🗺️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Roadmap.md)
 
-[Featured artworks 🎨](https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/FEATURED-1.MD)
+[Featured stuff 🎨](https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/FEATURED-1.MD)
 
 [Credits 📜 ](https://github.com/Twig6943/AffinityOnLinux/blob/main/Credits.md)
