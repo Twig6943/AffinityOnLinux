@@ -1,6 +1,6 @@
 # AffinityOnLinux 🌹
 
-<img src="https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Assets/affinitytux_vectorized.png" alt="Affinity on Linux" width="250"/>
+<img src="https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Assets/affinitytux_vectorized.svg" alt="Affinity on Linux" width="250"/>
 
 A repository that contains information on how to get Affinity software working on GNU/Linux with WINE 🐧
 
@@ -28,12 +28,14 @@ This guide helps you step by step by hand using heroic games launcher/bottles.
 
 We don't provide support for the install scripts over at our matrix/discord.
 
-### Misc
+### Miscellaneous
 
 [Other software on GNU/Linux 💻](https://github.com/Twig6943/AffinityOnLinux/blob/main/OtherSoftware/OtherSoftware-on-Linux.md)
 
 [Known issues ⚠️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Known-issues.md)
 
 [Roadmap 🗺️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Roadmap.md)
+
+[Featured artworks 🎨](https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/FEATURED-1.MD)
 
 [Credits 📜 ](https://github.com/Twig6943/AffinityOnLinux/blob/main/Credits.md)
