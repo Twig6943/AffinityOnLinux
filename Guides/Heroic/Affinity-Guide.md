@@ -48,7 +48,7 @@ Copy paste the Wine binaries you 've extracted earlier to Heroic Games Launcherâ
 3. Search and install the following dependencies:
     - `corefonts` / `allfonts` (Your choice)
     - `dotnet48`
-  <!-- vcrun2015 (Not sure if I should include this). -->
+    - `vcrun2015` (install this if it crashes when saving project)
 4. Wait for the dependencies to install. Be patientâ€”it's not stuck, just taking time.
 
 ---
