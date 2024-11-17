@@ -4,8 +4,8 @@
 
 Choose one of the following Wine versions:
 
-- [**ElementalWarrior**](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases)
-- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases)
+(https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended) (Just right click and extract)
+- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases) (You're supposed to extract the usr folder inside the  and then rename it to wine-tkg-affinity)
 
 ## 2. Install Bottles (Flatpak recommended)
 
@@ -14,9 +14,9 @@ Install Bottles using either **Flatpak** or **AppImage**.
 - Flatpak: https://flathub.org/apps/com.usebottles.bottles
 - AppImage: https://github.com/ivan-hc/Bottles-appimage/releases
 
-## 3. Extract Wine Binaries
+## 3. Copy & paste Wine Binaries
 
-Extract the Wine binaries you downloaded earlier to Bottles’ runners directory:
+Copy & paste the wine binaries you've extracted earlier to Bottles’ runners directory:
 
 - **Flatpak:** `/home/$USER/.var/app/com.usebottles.bottles/data/bottles/runners`
 - **AppImage:** `/home/$USER/.local/share/bottles/runners`
