@@ -4,8 +4,8 @@
 
 Choose one of the following Wine versions:
 
-- [**ElementalWarrior**](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended)
-- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases)
+- [**ElementalWarrior**](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended) (Just right click and extract)
+- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases) (You're supposed to extract the usr folder inside the  and then rename it to wine-tkg-affinity)
 
 ---
 
@@ -15,9 +15,9 @@ Install Heroic Games Launcher using either **AppImage** or **Flatpak**.
 
 ---
 
-## 3. Extract Wine Binaries
+## 3. Copy paste Wine Binaries
 
-Extract the Wine binaries you downloaded earlier to Heroic Games Launcher’s Wine directory:
+Copy paste the Wine binaries you 've extracted earlier to Heroic Games Launcher’s Wine directory:
 
 - **AppImage:** `/home/$USER/.config/heroic/tools/wine`
 - **Flatpak:** `/home/$USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine`
