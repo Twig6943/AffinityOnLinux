@@ -9,7 +9,7 @@ Choose one of the following Wine versions:
 
 ---
 
-## 2. Install Heroic Games Launcher
+## 2. Install Lutris
 
 
 ## Extract the Elemental Warrior's Pre-built wine binaries to Lutris wine directory
