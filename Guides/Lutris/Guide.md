@@ -15,6 +15,8 @@ Copy & paste the wine binaries you've extracted earlier to Bottles’ runners di
 
 - `/home/$USER/.local/share/lutris/runners`
 
+## Make sure to name the wine-binaries as ElementalWarriorWine-x86_64
+
 ## 4. Add Affinity in Bottles
 
 1. Open Affinity and click on the plus icon.
