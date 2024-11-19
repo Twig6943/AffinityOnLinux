@@ -11,17 +11,12 @@ sudo pacman -S opencl-nvidia
 
 to get OpenCL drivers.
 
-## Installing VKD3D-Proton
-
-Download VKD3D-Proton for Bottles from [ProtonPlus](https://github.com/Vysp3r/ProtonPlus) or [Protonupqt](https://github.com/DavidoTek/ProtonUp-Qt)
-
-(This might also work with Heroic Games Launcher.)
 
 ## Configuring Lutris
 
 1. Open Lutris and go to the game's or app's configuration settings.
 2. Navigate to **Runner Options**.
-3. Select **vkd3d-proton** as the VKD3D version.
+3. Select **v2.13** as the VKD3D version.
 4. Disable **DXVK**.
 
 ## Launching Affinity Apps
