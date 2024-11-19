@@ -1,11 +1,10 @@
+Currenyly Lutris is the best method for Nvidia GPU users.
+
 # How to Set Up Wine for Affinity on Lutris
 
-## 1. Install Desired Wine Version (ElementalWarrior recommended)
-
-Choose one of the following Wine versions:
+## 1. Install ElementalWarrior Wine Version
 
 - [ElementalWarrior](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended) (Just right click and extract)
-- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases) (You're supposed to extract the usr folder inside the  and then rename it to wine-tkg-affinity)
 
 ## 2. Install Lutris
 
