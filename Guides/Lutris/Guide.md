@@ -20,7 +20,7 @@ Copy & paste the wine binaries you've extracted earlier to Bottles’ runners di
 
 1. Open Affinity and click on the plus icon.
 2. Install from a local install script
-3. Import the [configuration](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Guides/Bottles/Affinity-Lutris.yaml) file
+3. Import the [configuration](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Lutris/Affinity-Lutris.yaml) file
 3. Click Install
 5. Choose Windows 11, when winecfg pops up.
 6. Close when the configuration is done.
