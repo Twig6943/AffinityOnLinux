@@ -1,6 +1,6 @@
 # How to Set Up Wine for Affinity on Heroic Games Launcher
 
-<img src="https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Assets/NewLogos/AffinityHGL.png" alt="Affinity on Linux" width="400"/>
+<img src="https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Assets/NewLogos/AffinityHGL.png" width="400"/>
 
 ## 1. Download Desired Wine Version
 
