@@ -29,7 +29,7 @@ script:
   installer:
     - task:
         name: winetricks
-        app: dotnet35 dotnet35sp1 dotnet48 corefonts
+        app: dotnet48 corefonts
 
     - task:
         name: winecfg
