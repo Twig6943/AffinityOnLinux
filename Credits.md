@@ -14,6 +14,8 @@ Unsane (Currently rewriting the script <3) (Some real work on god)
 
 [ardishco](https://github.com/ardishko) (ardishco was here) (hello i am very cool and funny)
 
+[VNTK](https://github.com/AlejandroSqr) (Design)
+
 ..and all the 20+ testers
 
 # Others/My homies
