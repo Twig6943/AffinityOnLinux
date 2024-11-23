@@ -1,5 +1,7 @@
 Currenyly Lutris is the best method for Nvidia GPU users.
 
+<img src="https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Assets/NewLogos/AffinityLutris.png" width="400"/>
+
 # How to Set Up Wine for Affinity on Lutris
 
 ## 1. Install ElementalWarrior Wine Version
