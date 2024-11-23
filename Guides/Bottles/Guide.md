@@ -1,5 +1,7 @@
 # How to Set Up Wine for Affinity on Bottles
 
+<img src="https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Assets/NewLogos/AffinityBottles.png" width="400"/>
+
 ## 1. Install Desired Wine Version (ElementalWarrior recommended)
 
 Choose one of the following Wine versions:
