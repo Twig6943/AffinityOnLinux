@@ -23,7 +23,7 @@ Installed_Dependencies:
 - allfonts
 - dotnet40
 - dotnet48
-# vcredist2015 
+- vcredist2022 
 #Install vcredist2015 if the program crashes on you while saving.
 Language: sys
 LatencyFleX: latencyflex-v0.1.1
