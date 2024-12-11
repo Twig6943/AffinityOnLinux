@@ -12,7 +12,7 @@ Currenyly Lutris is the best method for Nvidia GPU users.
 
 ## 3. Copy & paste Wine Binaries
 
-Copy & paste the wine binaries you've extracted earlier to Bottles’ runners directory:
+Copy & paste the wine binaries you've extracted earlier to Lutris’ runners directory:
 
 - `/home/$USER/.local/share/lutris/runners/wine/`
 
