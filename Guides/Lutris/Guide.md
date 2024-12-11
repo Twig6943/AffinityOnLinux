@@ -8,7 +8,12 @@ Currenyly Lutris is the best method for Nvidia GPU users.
 
 - [ElementalWarrior](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended) (Just right click and extract)
 
-## 2. Install Lutris
+## 2. Install Lutris (Flatpak recommended)
+
+Install Lutris using either **Flatpak** or **AppImage**.
+
+- Flatpak: https://flathub.org/apps/net.lutris.Lutris
+- AppImage: https://github.com/lucasmz1/Lutris_AppImage
 
 ## 3. Copy & paste Wine Binaries
 
