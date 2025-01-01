@@ -1,7 +1,7 @@
 # [Davinci Resolve 🎥](https://www.blackmagicdesign.com/products/davinciresolve)
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/DaVinci_Resolve_Studio.png" alt="DaVinci Resolve 17 Logo" width="300"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/90/DaVinci_Resolve_17_logo.svg" alt="DaVinci Resolve 17 Logo" width="300"/>
 
-Use [davincibox](https://github.com/zelikos/davincibox)
+See [resolve-flatpak](https://gitgud.io/Twig6943/resolve-flatpak)
 
 # [OpenMoonray 🌙](https://github.com/dreamworksanimation/openmoonray)
 
