@@ -1,6 +1,6 @@
 # Contributors 
 
-[ElementalWarrior](https://github.com/ElementalWarrior) (Owner of the wine fork)
+[ElementalWarrior](https://github.com/ElementalWarrior) (Main developer of the wine fork)
 
 Twig6843 (me ig)
 
@@ -8,7 +8,9 @@ Twig6843 (me ig)
 
 Deviaze (first ever tester) (believed in my cause and what not <3)
 
-Unsane (Currently rewriting the script <3) (Some real work on god)
+nerosuss
+
+Unsane
 
 [Andrewbaker-uk](https://github.com/andrewbaker-uk?tab=repositories) (Some PRS here and there)
 
