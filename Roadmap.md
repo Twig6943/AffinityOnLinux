@@ -2,6 +2,8 @@
 
 [ ✔️ ] Fix crashes upon saving/exporting
 
+[ :x: ] Get the font issue fixed (related to flatpak)
+
 [ :x: ] Get [studiolink](https://github.com/Twig6943/AffinityOnLinux/issues/25) working
 
 [ ❌ ] OpenCL for Amd/Intel gpus (waiting ElementalWarrior)
