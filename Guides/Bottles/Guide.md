@@ -20,8 +20,8 @@ Install Bottles using either **Flatpak** or **AppImage**.
 
 Copy & paste the wine binaries you've extracted earlier to Bottles’ runners directory:
 
-- **Flatpak:** `/home/$USER/.var/app/com.usebottles.bottles/data/bottles/runners`
-- **AppImage:** `/home/$USER/.local/share/bottles/runners`
+- **Flatpak:** `~/.var/app/com.usebottles.bottles/data/bottles/runners`
+- **AppImage:** `~/.local/share/bottles/runners`
 
 ## 4. Add Bottle in Bottles
 
