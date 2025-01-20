@@ -24,8 +24,8 @@ Install Heroic Games Launcher using either **Flatpak** or **AppImage**.
 
 Copy & paste the wine binaries you've extracted earlier to Heroic Games Launcher’s wine directory:
 
-- **Flatpak:** `/home/$USER/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine`
-- **AppImage:** `/home/$USER/.config/heroic/tools/wine`
+- **Flatpak:** `~/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine`
+- **AppImage:** `~/.config/heroic/tools/wine`
 
 ---
 
