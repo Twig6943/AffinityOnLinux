@@ -19,7 +19,8 @@ Install Lutris using either **Flatpak** or **AppImage**.
 
 Copy & paste the wine binaries you've extracted earlier to Lutris’ runners directory:
 
-- `/home/$USER/.local/share/lutris/runners/wine/`
+- **Flatpak:** `~/.var/app/net.lutris.Lutris/data/lutris/runners/wine/`
+- **AppImage:** `~/.local/share/lutris/runners/wine/`
 
 ## Make sure to name the wine-binaries as ElementalWarriorWine-x86_64
 
