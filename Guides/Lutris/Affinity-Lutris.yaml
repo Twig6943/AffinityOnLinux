@@ -1,10 +1,10 @@
 name: Affinity Suite
-slug: affinity-suite-2
-game_slug: affinity-suite-2
+slug: affinity-suite
+game_slug: affinity-suite
 arch: win64
 runner: wine
 version: ElementalWarriorWine-x86_64
-description: Affinity suite 2 via Wine
+description: Affinity suite via Wine
 
 script:
   wine:
