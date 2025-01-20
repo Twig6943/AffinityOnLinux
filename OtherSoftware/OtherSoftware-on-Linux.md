@@ -7,9 +7,7 @@ See [davincibox](https://github.com/zelikos/davincibox) or [resolve-flatpak](htt
 
 <img src="https://avatars.githubusercontent.com/u/1458180?s=200&v=4" alt="DaVinci Resolve 17 Logo" width="200"/>
 
-Placeholder
-
-(Using distrobox to compile should work.) 
+Either compile with docker or setup a distrobox and then use this [repo](https://copr.fedorainfracloud.org/coprs/adro79/openmoonray/) 
 
 (They still don't provide binaries as of writing this.)
 
@@ -19,6 +17,19 @@ Placeholder
 Placeholder
 
 (Using distrobox to install the .rpm package should work.)
+
+# ToonBoom Harmony
+<img src="https://docs.toonboom.com/help/harmony-17/icons/1-essentials.png" width="300"/>
+
+Placeholder (should just work out of the box tho) (I dont have a license soo I can't test)
+
+# Clip Studio Paint
+
+<img src="https://www.clipstudio.net/view/img/common/clipstudiopaint-icon.png" width="300"/>
+
+https://github.com/Twig6943/AffinityOnLinux/tree/main/OtherSoftware/ClipStudioPaint
+
+Placeholder
 
 # [Adobe apps](https://adobe.com/) 
 
