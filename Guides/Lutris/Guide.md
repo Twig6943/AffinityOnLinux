@@ -28,7 +28,7 @@ It should look like this at the end
 
 ![image](https://github.com/user-attachments/assets/503ae826-3df7-420c-923a-5a575b31eda8)
 
-## 4. Add Affinity in Lutris
+## 4. Add Affinity to Lutris
 
 1. Open Affinity and click on the plus icon.
 2. Install from a local install script
