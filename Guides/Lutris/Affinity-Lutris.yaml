@@ -12,6 +12,7 @@ script:
     battleye: false
     d3d_extras: false
     dxvk: false
+    vkd3d: false
     dxvk_nvapi: false
     eac: false
     fsr: false
