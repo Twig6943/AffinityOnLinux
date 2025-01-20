@@ -17,8 +17,8 @@ script:
     fsr: false
     #vkd3d_version: v2.13
 
-  #game:
-    #prefix: /home/$USER/AffinityOnLinux
+  game:
+    prefix: /home/$USER/AffinityOnLinux
 
   system:
     env:
