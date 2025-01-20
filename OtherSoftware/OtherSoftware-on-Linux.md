@@ -18,12 +18,12 @@ Placeholder
 
 (Using distrobox to install the .rpm package should work.)
 
-# ToonBoom Harmony
+# [ToonBoom Harmony](https://www.toonboom.com/products/harmony)
 <img src="https://docs.toonboom.com/help/harmony-17/icons/1-essentials.png" width="300"/>
 
 Placeholder (should just work out of the box tho) (I dont have a license soo I can't test)
 
-# Clip Studio Paint
+# [Clip Studio Paint](https://www.clipstudio.net/en/)
 
 <img src="https://www.clipstudio.net/view/img/common/clipstudiopaint-icon.png" width="300"/>
 
