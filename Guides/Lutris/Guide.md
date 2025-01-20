@@ -22,7 +22,11 @@ Copy & paste the wine binaries you've extracted earlier to Lutris’ runners dir
 - **Flatpak:** `~/.var/app/net.lutris.Lutris/data/lutris/runners/wine/`
 - **AppImage:** `~/.local/share/lutris/runners/wine/`
 
-## Make sure to name the wine-binaries as ElementalWarriorWine-x86_64
+## Rename the `ElementalWarriorWine` folder to `ElementalWarriorWine-x86_64`
+
+It should look like this at the end
+
+![image](https://github.com/user-attachments/assets/503ae826-3df7-420c-923a-5a575b31eda8)
 
 ## 4. Add Affinity in Lutris
 
@@ -30,8 +34,6 @@ Copy & paste the wine binaries you've extracted earlier to Lutris’ runners dir
 2. Install from a local install script
 3. Import the [configuration](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Lutris/Affinity-Lutris.yaml) file
 3. Click Install
-5. Choose Windows 11, when winecfg pops up.
-6. Close when the configuration is done.
 
 ## 5. Extract WinMetadata
 
