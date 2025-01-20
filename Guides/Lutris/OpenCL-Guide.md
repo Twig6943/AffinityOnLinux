@@ -11,12 +11,11 @@ sudo pacman -S opencl-nvidia
 
 to get OpenCL drivers.
 
-
 ## Configuring Lutris
 
 1. Open Lutris and go to the game's or app's configuration settings.
 2. Navigate to **Runner Options**.
-3. Select **v2.13** as the VKD3D version.
+3. Select the latest as the VKD3D version.
 4. Disable **DXVK**.
 
 ## Launching Affinity Apps
