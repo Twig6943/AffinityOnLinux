@@ -15,10 +15,10 @@ script:
     dxvk_nvapi: false
     eac: false
     fsr: false
-    vkd3d_version: v2.13
+    #vkd3d_version: v2.13
 
-  game:
-    prefix: /home/$USER/AffinityOnLinux
+  #game:
+    #prefix: /home/$USER/AffinityOnLinux
 
   system:
     env:
@@ -31,5 +31,7 @@ script:
         name: winetricks
         app: dotnet48 corefonts vcrun2022
 
+  installer:
     - task:
-        name: winecfg
+        name: winetricks
+        app: win11
