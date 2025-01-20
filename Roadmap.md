@@ -1,9 +1,9 @@
-[ ✔️ ] Get the whole winmetadata thing sorted out. ( [Issue #6](https://github.com/Twig6943/AffinityOnLinux/issues/6) )
+[ ✅ ] Get the whole winmetadata thing sorted out. ( [Issue #6](https://github.com/Twig6943/AffinityOnLinux/issues/6) )
 
-[ ✔️ ] Fix crashes upon saving/exporting
+[ ✅ ] Fix crashes upon saving/exporting
 
-[ :x: ] Get the font issue fixed (related to flatpak)
+[ ✅ ] Get the font issue fixed (related to flatpak)
 
-[ :x: ] Get [studiolink](https://github.com/Twig6943/AffinityOnLinux/issues/25) working
+[ ❌ ] Get [studiolink](https://github.com/Twig6943/AffinityOnLinux/issues/25) working
 
 [ ❌ ] OpenCL for Amd/Intel gpus (waiting ElementalWarrior)
