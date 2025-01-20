@@ -29,4 +29,4 @@ script:
   installer:
     - task:
         name: winetricks
-        app: dotnet48 allfonts vcrun2022 win11
+        app: dotnet48 allfonts vcrun2022 renderer=vulkan win11
