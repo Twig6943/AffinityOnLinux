@@ -32,7 +32,7 @@ It should look like this at the end
 
 ## 4. Add Affinity to Lutris
 
-1. Open Affinity and click on the plus icon.
+1. Open Lutris and click on the plus icon.
 2. Install from a local install script
 3. Import the [configuration](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Lutris/Affinity-Lutris.yaml) file
 3. Click Install
