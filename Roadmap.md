@@ -4,7 +4,7 @@
 
 [ ✅ ] Get the font issue fixed (related to flatpak)
 
-[ ❌ ] Get canva login fixed (thanks xDan for reporting)
+[ ❌ ] Get canva login fixed (thanks XDan for reporting)
 
 [ ❌ ] Get vector issue solved (Thanks Søren for reporting)
 
