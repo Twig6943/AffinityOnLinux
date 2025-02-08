@@ -3,3 +3,6 @@
 
 ### [screw](https://bsky.app/profile/e16iskool.bsky.social) - [TUX HAS GOT AFFINITY](https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/Stuff/TUX_GOT_THE.png)
 <img src="https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/Stuff/TUX_GOT_THE.png" width="400"/>
+
+### [frozendeathknight]() - [Knight](https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/Stuff/knight.png)
+<img src="https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/Stuff/knight.png" width="400"/>
