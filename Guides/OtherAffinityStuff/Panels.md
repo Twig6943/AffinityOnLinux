@@ -7,3 +7,5 @@
 3.Click `Apply` and `Ok`
 
 4.Arrange the desired panels where you want them and save the layout in Affinity using Window > Studio > Add Preset
+
+# Related [documentation](https://affinity.liz.pet/docs/misc-troubleshooting.html#rearranging-panels)
