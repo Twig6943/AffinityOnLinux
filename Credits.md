@@ -25,8 +25,6 @@ Unsane
 # Others/My homies
 [ardishco](https://github.com/ardishko) (🗿)
 
-Burak ammmmmmmmmmınakeeeeee sinay (🔥🔥🔥)
-
 Düğün Magandası
 
 Jacazimbo (Zimbo 😎) 
