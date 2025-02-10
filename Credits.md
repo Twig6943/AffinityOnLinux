@@ -29,8 +29,6 @@ Düğün Magandası
 
 Jacazimbo (Zimbo 😎) 
 
-Lyrics (Real one)
-
 Kharoon (🐎)
 
 Jediclank134 (🇬🇧🇬🇧🇬🇧)
