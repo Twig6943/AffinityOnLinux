@@ -28,6 +28,8 @@ This guide helps you step by step by hand using heroic games launcher/bottles.
 
 We don't provide support for the install scripts over at our matrix/discord.
 
+We aren't affiliated with serif or canva.
+
 ### Miscellaneous
 
 [Other software on GNU/Linux 💻](https://github.com/Twig6943/AffinityOnLinux/blob/main/OtherSoftware/OtherSoftware-on-Linux.md)
