@@ -12,3 +12,6 @@
 
 ### [Woman](https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/Stuff/woman.png) - [frozendeathknight](https://www.artstation.com/kenn_nystrom)
 <img src="https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/Stuff/woman.png" width="400"/>
+
+### [Keep going](https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/Stuff/keep-going.png) - [daniel5742]()
+<img src="https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/Stuff/keep-going.png" width="400"/>
