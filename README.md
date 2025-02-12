@@ -22,7 +22,7 @@ A repository that contains information on how to get Affinity software working o
 
 ### [Written Guide 📕](https://github.com/Twig6943/AffinityOnLinux/tree/main/Guides) (Recommended install method ✅ )
 
-This guide helps you step by step by hand using lutris/heroic games launcher.
+This guide helps you step by step by hand using lutris/bottles/heroic games launcher.
 
 ### [Bash install scripts 🤖](https://github.com/ryzendew/AffinityOnLinux) (These scripts aren't supported ❗ )
 
