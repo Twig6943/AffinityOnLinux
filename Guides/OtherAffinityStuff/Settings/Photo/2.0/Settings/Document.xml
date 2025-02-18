@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Serif.Affinity.Settings.DocumentSettings">
+	<DefaultDocumentSize xsi:nil="true" />
+	<NewDocType>3</NewDocType>
+	<NewDocColourFormat>0</NewDocColourFormat>
+	<NewDocColourProfile xsi:nil="true" />
+	<NewDocPreset>98</NewDocPreset>
+	<NewDocUnitType>5</NewDocUnitType>
+	<NewDocDPI>72</NewDocDPI>
+	<NewDocViewDPI xsi:nil="true" />
+	<NewDocWidth>1920</NewDocWidth>
+	<NewDocHeight>1080</NewDocHeight>
+	<NewDocMarginLeft>0</NewDocMarginLeft>
+	<NewDocMarginTop>0</NewDocMarginTop>
+	<NewDocMarginRight>0</NewDocMarginRight>
+	<NewDocMarginBottom>0</NewDocMarginBottom>
+	<NewDocHasMargins>False</NewDocHasMargins>
+	<NewDocTransparent>False</NewDocTransparent>
+	<NewDocLock xsi:nil="true" />
+	<NewDocAnchor xsi:nil="true" />
+	<NewDocRescale xsi:nil="true" />
+	<NewDocResample xsi:nil="true" />
+	<NewDocFacingPages>False</NewDocFacingPages>
+	<NewDocStartOnDoubleSpread>False</NewDocStartOnDoubleSpread>
+	<NewDocVerticalPageStack>False</NewDocVerticalPageStack>
+</Settings>
