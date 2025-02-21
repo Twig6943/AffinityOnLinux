@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Serif.Affinity.Settings.WebServicesSettings">
+	<ShowContentExplorerSearchBar xsi:nil="true" />
+	<ListIncompatibleStorePacks xsi:nil="true" />
+	<HideLicenceInfo xsi:nil="true" />
+</Settings>
