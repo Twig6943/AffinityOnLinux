@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Serif.Affinity.Settings.WindowSettings">
+	<Display>0</Display>
+	<Location>
+		<X>-8</X>
+		<Y>-8</Y>
+	</Location>
+	<Size>
+		<Width>1440</Width>
+		<Height>879</Height>
+	</Size>
+	<State>Maximized</State>
+	<Dialogs>
+		<ShapeDataEntryDialog>
+			<X>675</X>
+			<Y>455</Y>
+			<Width>350</Width>
+			<Height>246</Height>
+			<Display>0</Display>
+		</ShapeDataEntryDialog>
+		<ColourChooser>
+			<X>659</X>
+			<Y>357</Y>
+			<Width>586</Width>
+			<Height>447</Height>
+			<Display>0</Display>
+		</ColourChooser>
+	</Dialogs>
+</Settings>
