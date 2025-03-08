@@ -1,6 +1,6 @@
 Currenyly Lutris is the best method for Nvidia GPU users.
 
-<img src="https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Assets/NewLogos/AffinityLutris.png" width="400"/>
+<img src="Assets/NewLogos/AffinityLutris.png" width="400"/>
 
 # How to Set Up Wine for Affinity on Lutris
 
@@ -34,7 +34,7 @@ It should look like this at the end
 
 1. Open Lutris and click on the plus icon.
 2. Install from a local install script
-3. Import the [configuration](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Lutris/Affinity-Lutris.yaml) file
+3. Import the [configuration](Guides/Lutris/Affinity-Lutris.yaml) file
 3. Click Install
 
 ## 5. Extract WinMetadata
@@ -45,7 +45,6 @@ Now you can install affinity apps through lutris.
 
 Right click on Affinity Suite and Configure.
 Name it According to the Affinity app you are using
-
 
 ## Selecting the Programs .exe According to what you Want to Install
 
