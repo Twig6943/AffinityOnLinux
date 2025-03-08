@@ -28,12 +28,12 @@ Copy & paste the wine binaries you've extracted earlier to Bottles’ runners di
 1. Open Bottles and click on the plus icon.
 2. Set the enviroment to Custom.
 3. Import the [configuration](/Guides/Bottles/Affinity.yml) file
-3. Set the runner to **ElementalWarriorWine** or **Wine-TKG-Affinity**.
+3. Set the runner to **ElementalWarriorWine** or **Wine-TKG-Affinity**
 5. Click **Create**.
 
 ## 5. Extract WinMetadata
 
-1. Unzip the `WinMetadata` folder from the [WinMetadata.zip file](https://nextcloud.ardishco.net/s/4zNC7iJA7Q2QSzG/download/WinMetadata.zip) into `drive_c/windows/system32`.
+1. Unzip the `WinMetadata` folder from the [WinMetadata.zip file](https://nextcloud.ardishco.net/s/4zNC7iJA7Q2QSzG/download/WinMetadata.zip) into `drive_c/windows/system32`
 
 Affinity Apps should now be working inside that bottle.
 
