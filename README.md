@@ -1,6 +1,6 @@
 # AffinityOnLinux 🌹
 
-<img src="https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Assets/affinitytux_vectorized.svg" alt="Affinity on Linux" width="250"/>
+<img src="/Assets/affinitytux_vectorized.svg" alt="Affinity on Linux" width="250"/>
 
 A repository that contains information on how to get Affinity software working on GNU/Linux with WINE 🐧
 
@@ -20,7 +20,7 @@ A repository that contains information on how to get Affinity software working o
 
 # List of contents
 
-### [Written Guide 📕](https://github.com/Twig6943/AffinityOnLinux/tree/main/Guides) (Recommended install method ✅ )
+### [Written Guide 📕](/Guides/) (Recommended install method ✅ )
 
 This guide helps you step by step by hand using lutris/bottles/heroic games launcher.
 
@@ -32,12 +32,12 @@ We aren't affiliated with serif or canva.
 
 ### Miscellaneous
 
-[Other software on GNU/Linux 💻](https://github.com/Twig6943/AffinityOnLinux/blob/main/OtherSoftware/OtherSoftware-on-Linux.md)
+[Other software on GNU/Linux 💻](/OtherSoftware/OtherSoftware-on-Linux.md)
 
-[Known issues ⚠️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Known-issues.md)
+[Known issues ⚠️](/Known-issues.md)
 
-[Roadmap 🗺️](https://github.com/Twig6943/AffinityOnLinux/blob/main/Roadmap.md)
+[Roadmap 🗺️](/Roadmap.md)
 
-[Featured stuff 🎨](https://github.com/Twig6943/AffinityOnLinux/blob/main/Featured/FEATURED-1.MD)
+[Featured stuff 🎨](/Featured/FEATURED-1.MD)
 
-[Credits 📜 ](https://github.com/Twig6943/AffinityOnLinux/blob/main/Credits.md)
+[Credits 📜 ](/Credits.md)
