@@ -39,7 +39,7 @@ It should look like this at the end
 
 ## 5. Extract WinMetadata
 
-1. Unzip the `WinMetadata` folder from the [WinMetadata.zip file](https://nextcloud.ardishco.net/s/4zNC7iJA7Q2QSzG/download/WinMetadata.zip) into `drive_c/windows/system32`.
+1. Unzip the `WinMetadata` folder from the [WinMetadata.zip file](https://archive.org/download/win-metadata/WinMetadata.zip) into `drive_c/windows/system32`.
 
 Now you can install affinity apps through lutris.
 
