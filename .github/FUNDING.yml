@@ -1,9 +1,5 @@
-# These are supported funding model platforms
-
-custom: https://bagis.kizilay.org.tr/tr
-
-custom2: https://archive.org/donate/
-
-custom3: https://www.newgrounds.com/supporter
-
-custom4: https://www.linuxfoundation.org/about/donate
+custom: |
+  [Kızılay](https://bagis.kizilay.org.tr/tr)  
+  [Internet Archive](https://archive.org/donate/)  
+  [Newgrounds](https://www.newgrounds.com/supporter)  
+  [Linux Foundation](https://www.linuxfoundation.org/about/donate)
