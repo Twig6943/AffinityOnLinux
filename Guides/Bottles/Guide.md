@@ -33,7 +33,7 @@ Copy & paste the wine binaries you've extracted earlier to Bottles’ runners di
 
 ## 5. Extract WinMetadata
 
-1. Unzip the `WinMetadata` folder from the [WinMetadata.zip file](https://nextcloud.ardishco.net/s/4zNC7iJA7Q2QSzG/download/WinMetadata.zip) into `drive_c/windows/system32`
+1. Unzip the `WinMetadata` folder from the [WinMetadata.zip file](https://archive.org/download/win-metadata/WinMetadata.zip) into `drive_c/windows/system32`
 
 Affinity Apps should now be working inside that bottle.
 
