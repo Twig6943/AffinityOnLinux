@@ -18,7 +18,7 @@ script:
     fsr: false
 
   game:
-    prefix: /home/$USER/AffinityOnLinux
+    prefix: $HOME/AffinityOnLinux
 
   system:
     env:
