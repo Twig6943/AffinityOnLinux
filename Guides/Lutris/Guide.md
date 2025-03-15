@@ -66,10 +66,6 @@ Next Change the executable to
 Click save & launch it.
 
 You can install other apps by
-* add button(+)
+* right click to the app you've installed first > duplicate
 
-and at the bottom
-
-* Add Locally Install Game
-
-Name it According to the Affinity app you are using, and setup the correct wineprefix and set the correct wine and copy the settings, then do the installation process.
+Name it According to the Affinity app you are using, set the correct .exe
