@@ -6,8 +6,8 @@
 
 Choose one of the following Wine versions:
 
-- [**ElementalWarrior**](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended) (Just right click and extract)
-- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases) (You're supposed to extract the usr folder inside the archive and then rename it to wine-tkg-affinity)
+- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases) (Recommended) (You're supposed to extract the usr folder inside the archive and then rename it to wine-tkg-affinity)
+- [**ElementalWarrior**](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Deprecated) (Just right click and extract)
 
 ---
 
@@ -33,7 +33,7 @@ Copy & paste the wine binaries you've extracted earlier to Heroic Games Launcher
 
 1. Open Heroic Games Launcher and click on **Add Game**.
 2. Name the game as you wish.
-3. Set the Wine version to **ElementalWarriorWine** or **Wine-TKG-Affinity**.
+3. Set the Wine version to **Wine-TKG-Affinity** or **ElementalWarriorWine**.
 4. Select the x64 setup `.exe` you downloaded from Affinity's website as the executable.
 5. Click **Finish**.
 
