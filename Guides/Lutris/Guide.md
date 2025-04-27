@@ -26,10 +26,6 @@ Copy & paste the wine binaries you've extracted earlier to Lutris’ runners dir
 
 ## Extract the `usr` folder inside the archive to your wine runners folder and then rename it to `wine-tkg-affinity-x86_64`
 
-It should look like this at the end
-
-![image](https://github.com/user-attachments/assets/503ae826-3df7-420c-923a-5a575b31eda8)
-
 ## 4. Add Affinity to Lutris
 
 1. Open Lutris and click on the plus icon.
