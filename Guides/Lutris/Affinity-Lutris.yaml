@@ -3,12 +3,12 @@ slug: affinity-suite
 game_slug: affinity-suite
 arch: win64
 runner: wine
-version: ElementalWarriorWine-x86_64
+version: wine-tkg-affinity-x86_64
 description: Affinity suite via Wine
 
 script:
   wine:
-    version: ElementalWarriorWine-x86_64
+    version: wine-tkg-affinity-x86_64
     battleye: false
     d3d_extras: false
     dxvk: false
