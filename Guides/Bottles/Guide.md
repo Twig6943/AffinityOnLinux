@@ -28,7 +28,7 @@ Copy & paste the wine binaries you've extracted earlier to Bottles’ runners di
 1. Open Bottles and click on the plus icon.
 2. Set the enviroment to Custom.
 3. Import the [configuration](/Guides/Bottles/Affinity.yml) file
-3. Set the runner to **ElementalWarriorWine** or **Wine-TKG-Affinity**
+3. Set the runner to **Wine-TKG-Affinity** or **ElementalWarriorWine**
 5. Click **Create**.
 
 ## 5. Extract WinMetadata
