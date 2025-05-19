@@ -8,7 +8,7 @@ Currenyly Lutris is the best method for Nvidia GPU users.
 
 - [Wine-tkg-affinity](https://github.com/daegalus/wine-tkg-affinity/releases) (Recommended)
 
-- [ElementalWarrior](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Deprecated) (Just right click and extract, you also need to edit the .yaml)
+- [ElementalWarrior](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Deprecated)
 
 ## 2. Install Lutris (Flatpak recommended)
 
@@ -30,7 +30,11 @@ Copy & paste the wine binaries you've extracted earlier to Lutris’ runners dir
 
 1. Open Lutris and click on the plus icon.
 2. Install from a local install script
-3. Import the [configuration](/Guides/Lutris/Affinity-Lutris.yaml) file
+3. Import the configuration file for your wine version
+
+- [Wine-tkg-affinity](/Guides/Lutris/InstallScripts/Affinity-tkg.yaml)
+- [ElementalWarrior](/Guides/Lutris/InstallScripts/Affinity-ew.yaml) file
+
 3. Click Install
 
 ## 5. Extract WinMetadata
