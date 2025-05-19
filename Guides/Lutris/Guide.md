@@ -30,7 +30,7 @@ Copy & paste the wine binaries you've extracted earlier to Lutris’ runners dir
 
 1. Open Lutris and click on the plus icon.
 2. Install from a local install script
-3. Import the configuration file for your wine version
+3. Import the configuration file for your wine fork
 
 - [Wine-tkg-affinity](/Guides/Lutris/InstallScripts/Affinity-tkg.yaml)
 - [ElementalWarrior](/Guides/Lutris/InstallScripts/Affinity-ew.yaml)
