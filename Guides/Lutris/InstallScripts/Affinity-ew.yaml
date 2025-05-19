@@ -1,0 +1,32 @@
+name: Affinity Suite
+slug: affinity-suite
+game_slug: affinity-suite
+arch: win64
+runner: wine
+version: ElementalWarrior-x86_64
+description: Affinity suite via Wine
+
+script:
+  wine:
+    version: ElementalWarriorWine-x86_64
+    battleye: false
+    d3d_extras: false
+    dxvk: false
+    vkd3d: false
+    dxvk_nvapi: false
+    eac: false
+    fsr: false
+
+  game:
+    prefix: $HOME/AffinityOnLinux
+
+  system:
+    env:
+      WINEARCH: win64
+    gamescope: false
+    xephyr_fullscreen: false
+
+  installer:
+    - task:
+        name: winetricks
+        app: --unattended --force vcrun2022 dotnet48 renderer=vulkan corefonts win11
