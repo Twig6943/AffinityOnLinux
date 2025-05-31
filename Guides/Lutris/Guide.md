@@ -13,16 +13,16 @@ Install Lutris using either **Flatpak** or **AppImage**.
 
 ### 2. Install wine version of your choice
 
-- [ElementalWarriorWine](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended)
+- [ElementalWarriorWine](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended) (Just right click and extract)
 
-- [wine-tkg-affinity](https://github.com/daegalus/wine-tkg-affinity/releases)
+- [wine-tkg-affinity](https://github.com/daegalus/wine-tkg-affinity/releases) (you need to extract the `usr` folder inside the archive to your wine runners folder and then rename it to `wine-tkg-affinity-x86_64` )
 
 ### 3. Copy & paste Wine Binaries
 
 Copy & paste the wine binaries you've extracted earlier to Lutris’ runners directory:
 
 - **Flatpak:** `~/.var/app/net.lutris.Lutris/data/lutris/runners/wine/`
-- **AppImage:** `~/.local/share/lutris/runners/wine/` (you need to extract the `usr` folder inside the archive to your wine runners folder and then rename it to `wine-tkg-affinity-x86_64` )
+- **AppImage:** `~/.local/share/lutris/runners/wine/` 
 
 ### 4. Add Affinity to Lutris
 
