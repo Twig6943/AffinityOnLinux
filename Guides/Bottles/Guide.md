@@ -2,19 +2,20 @@
 
 <img src="/Assets/NewLogos/AffinityBottles.png" width="400"/>
 
-## 1. Install Desired Wine Version (ElementalWarrior recommended)
-
-Choose one of the following Wine versions:
-
-- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases) (Recommended) (You're supposed to extract the usr folder inside the  and then rename it to wine-tkg-affinity)
-- [ElementalWarrior](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Deprecated) (Just right click and extract)
-
-## 2. Install Bottles (Flatpak recommended)
+## 1. Install Bottles (Flatpak recommended)
 
 Install Bottles using either **Flatpak** or **AppImage**.
 
 - Flatpak: https://flathub.org/apps/com.usebottles.bottles
 - AppImage: https://github.com/ivan-hc/Bottles-appimage/releases
+
+## 2. Install Desired Wine Version (ElementalWarrior recommended)
+
+Choose one of the following Wine versions:
+
+- [ElementalWarrior](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended) (Just right click and extract)
+
+- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases)  (You're supposed to extract the usr folder inside the  and then rename it to wine-tkg-affinity)
 
 ## 3. Copy & paste Wine Binaries
 
@@ -27,8 +28,12 @@ Copy & paste the wine binaries you've extracted earlier to Bottles’ runners di
 
 1. Open Bottles and click on the plus icon.
 2. Set the enviroment to Custom.
-3. Import the [configuration](/Guides/Bottles/Affinity.yml) file
-3. Set the runner to **wine-tkg-affinity** or **ElementalWarriorWine**
+3. Import the configuration file for your wine fork
+
+- [ElementalWarrior](/Guides/Lutris/InstallScripts/Affinity-ew.yaml)
+- [Wine-tkg-affinity](/Guides/Bottles/InstallScripts/Affinity-tkg.yaml)
+
+4. Set the runner to **ElementalWarriorWine** or **wine-tkg-affinity**
 5. Click **Create**.
 
 ## 5. Extract WinMetadata
