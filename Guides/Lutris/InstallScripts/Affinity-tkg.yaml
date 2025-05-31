@@ -4,7 +4,7 @@ game_slug: affinity-suite
 arch: win64
 runner: wine
 version: wine-tkg-affinity-x86_64
-description: Affinity suite via Wine
+description: Affinity Suite via Wine
 
 script:
   wine:
@@ -18,15 +18,37 @@ script:
     fsr: false
 
   game:
-    prefix: $HOME/AffinityOnLinux
+    prefix: $GAMEDIR
 
   system:
-    env:
-      WINEARCH: win64
+    #env:
+      #DISPLAY: win64
     gamescope: false
     xephyr_fullscreen: false
 
   installer:
     - task:
+        name: create_prefix
+        description: Creating prefix...
+    - merge:
+        description: Copying WinMetadata
+        src: WinMetadata
+        dst: $GAMEDIR
+    - extract:
+        filename: WinMetadata.zip
+        description: Extracting WinMetadata...
+        file: $GAMEDIR/WinMetadata.zip
+        dst: $GAMEDIR/drive_c/windows/system32/WinMetadata
+    - task:
         name: winetricks
+        description: Installing winetricks packages...
         app: --unattended --force vcrun2022 dotnet48 renderer=vulkan corefonts win11
+    - task:
+        name: wineexec
+        description: Installing Affinity...
+        executable: setup
+        prefix: $GAMEDIR
+
+  files:
+    - setup: "N/A:Select the Affinity's setup file"
+    - WinMetadata: https://archive.org/download/win-metadata/WinMetadata.zip
