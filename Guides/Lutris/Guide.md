@@ -41,7 +41,6 @@ Copy & paste the wine binaries you've extracted earlier to Lutris’ runners dir
 
 # Configuring the executable path
 
-
 Once its done installing right click to affinity on lutris and go to configure
 * Game info
 
@@ -51,6 +50,7 @@ Change the name to
 * `Affinity Designer`
 * `Affinity Publisher`
 
+Go to
 * Game options
 
 Change the executable to
@@ -60,6 +60,8 @@ Change the executable to
 * `drive_c/Program Files/Affinity/Publisher 2/Publisher.exe`
 
 Click save & launch it.
+
+# Installing other apps to the same prefix
 
 You can install other apps by
 * right click to the app you've installed first > duplicate
