@@ -104,4 +104,4 @@ Quote from **darkside99**:
 
 ## 11. Optional: Enable Dark Theme
 
-To enable the dark theme, run [this registry file](./wine-dark-theme.reg) inside the Wine prefix.
+To enable the dark theme, run [this registry file](/wine-dark-theme.reg) inside the Wine prefix.
