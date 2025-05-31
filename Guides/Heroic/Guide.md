@@ -6,8 +6,9 @@
 
 Choose one of the following Wine versions:
 
-- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases) (Recommended) (You're supposed to extract the usr folder inside the archive and then rename it to wine-tkg-affinity)
-- [**ElementalWarrior**](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Deprecated) (Just right click and extract)
+- [**ElementalWarrior**](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended) (Just right click and extract)
+
+- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases) (You're supposed to extract the usr folder inside the archive and then rename it to wine-tkg-affinity)
 
 ---
 
@@ -33,7 +34,7 @@ Copy & paste the wine binaries you've extracted earlier to Heroic Games Launcher
 
 1. Open Heroic Games Launcher and click on **Add Game**.
 2. Name the game as you wish.
-3. Set the Wine version to **Wine-TKG-Affinity** or **ElementalWarriorWine**.
+3. Set the Wine version to **ElementalWarriorWine** or **Wine-TKG-Affinity**.
 4. Select the x64 setup `.exe` you downloaded from Affinity's website as the executable.
 5. Click **Finish**.
 
@@ -97,10 +98,10 @@ To optimize performance and reduce latency, adjust these settings:
 Quote from **darkside99**:  
 *"These are the best settings for improving performance and reducing latency."*
 
-![Performance Settings](https://github.com/user-attachments/assets/a274d0d6-538e-4288-9365-73bdf4fa2e16)
+![Performance.png](./Images/Performance.png)
 
 ---
 
 ## 11. Optional: Enable Dark Theme
 
-To enable the dark theme, run [this registry file](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/wine-dark-theme.reg) inside the Wine prefix.
+To enable the dark theme, run [this registry file](./wine-dark-theme.reg) inside the Wine prefix.
