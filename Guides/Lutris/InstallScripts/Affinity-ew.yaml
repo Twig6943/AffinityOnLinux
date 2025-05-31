@@ -6,6 +6,10 @@ runner: wine
 version: ElementalWarrior-x86_64
 description: Affinity suite via Wine
 
+files:
+- setup: N/A:Please select the setup file for Affinity
+- WINMETADATA: https://archive.org/download/win-metadata/WinMetadata.zip
+
 script:
   wine:
     version: ElementalWarriorWine-x86_64
@@ -18,8 +22,8 @@ script:
     fsr: false
 
   game:
-    prefix: $HOME/AffinityOnLinux
-
+    prefix: $GAMEDIR/AffinityOnLinux
+    
   system:
     env:
       WINEARCH: win64
@@ -28,5 +32,18 @@ script:
 
   installer:
     - task:
-        name: winetricks
-        app: --unattended --force vcrun2022 dotnet48 renderer=vulkan corefonts win11
+    description: Creating Wine prefix...
+    name: create_prefix
+    prefix: $GAMEDIR
+    - extract:
+    description: Extracting Winmetadata...
+    dst: $GAMEDIR/drive_c/windows/system32/
+    file: WinMetadata.zip
+    - task:
+    name: winetricks
+    app: --unattended --force vcrun2022 dotnet48 renderer=vulkan corefonts win11
+    - task:
+    description: Installing Affinity...
+    executable: $setup
+    name: wineexec
+    prefix: $GAMEDIR
