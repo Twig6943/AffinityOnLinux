@@ -74,7 +74,7 @@ Parameters:
     vmtouch: false
     vmtouch_cache_cwd: false
 Path: AffinityOnLinux
-Runner: wine-tkg-affinity
+Runner: wine-tkg-affinity-x86_64
 RunnerPath: ''
 Sandbox:
     share_net: false
