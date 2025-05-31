@@ -1,0 +1,92 @@
+Arch: win64
+CompatData: ''
+Creation_Date: '2024-10-18 16:42:58.782336'
+Custom_Path: false
+DLL_Overrides: {}
+DXVK: dxvk-2.4.1
+Environment: Custom
+Environment_Variables: {}
+External_Programs: {}
+Installed_Dependencies:
+- andale32
+- arial32
+- arialb32
+- comic32
+- courie32
+- georgi32
+- impact32
+- tahoma32
+- times32
+- trebuc32
+- verdan32
+- webdin32
+- allfonts
+- dotnet40
+- dotnet48
+- vcredist2022 
+#Install vcredist2015 if the program crashes on you while saving.
+Language: sys
+LatencyFleX: latencyflex-v0.1.1
+NVAPI: dxvk-nvapi-v0.7.1
+Name: AffinityOnLinux
+Parameters:
+    custom_dpi: 96
+    decorated: true
+    discrete_gpu: false
+    dxvk: false
+    dxvk_nvapi: false
+    fixme_logs: false
+    fsr: false
+    fsr_quality_mode: none
+    fsr_sharpening_strength: 2
+    fullscreen_capture: false
+    gamemode: false
+    gamescope: false
+    gamescope_borderless: false
+    gamescope_fps: 0
+    gamescope_fps_no_focus: 0
+    gamescope_fullscreen: true
+    gamescope_game_height: 0
+    gamescope_game_width: 0
+    gamescope_scaling: false
+    gamescope_window_height: 0
+    gamescope_window_width: 0
+    latencyflex: false
+    mangohud: false
+    mouse_warp: true
+    obsvkc: false
+    pulseaudio_latency: false
+    renderer: vulkan
+    sandbox: false
+    sync: wine
+    take_focus: false
+    use_be_runtime: false
+    use_eac_runtime: false
+    use_runtime: true
+    use_steam_runtime: false
+    versioning_automatic: false
+    versioning_compression: false
+    versioning_exclusion_patterns: false
+    virtual_desktop: false
+    virtual_desktop_res: 1280x720
+    vkbasalt: false
+    vkd3d: false
+    vmtouch: false
+    vmtouch_cache_cwd: false
+Path: AffinityOnLinux
+Runner: wine-tkg-affinity
+RunnerPath: ''
+Sandbox:
+    share_net: false
+    share_sound: false
+State: 0
+Uninstallers: {}
+Update_Date: '2024-10-18 17:12:15.757161'
+VKD3D: vkd3d-proton-2.13
+Versioning: false
+Versioning_Exclusion_Patterns: []
+Windows: win11
+WorkingDir: ''
+data: {}
+run_in_terminal: false
+session_arguments: ''
