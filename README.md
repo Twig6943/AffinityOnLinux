@@ -10,11 +10,11 @@ A repository that contains information on how to get Affinity software working o
 
 [Discord 💬](https://discord.gg/t5V9ecpJWZ)
 
-<img src="https://github.com/user-attachments/assets/c7b70ee5-58e3-46c6-b385-7c3d02749664" width="200"/>
-
-<img src="https://github.com/user-attachments/assets/8ea7f748-c455-4ee8-9a94-775de40dbbf3" width="200"/>
-
-<img src="https://github.com/user-attachments/assets/96ae06f8-470b-451f-ba29-835324b5b552" width="200"/>
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src="/Assets/Icons/Photo.svg" width="200"/>
+  <img src="/Assets/Icons/Designer.svg" width="200"/>
+  <img src="/Assets/Icons/Publisher.svg" width="200"/>
+</div>
 
 [Affinity Apps 📢](https://affinity.serif.com)
 
