@@ -64,6 +64,9 @@ Click save & launch it.
 # Installing other apps to the same prefix
 
 You can install other apps by
+* Select existing Affinity app
+* click `Run EXE inside Wine prefix` in the Wine dropdown (bottom of window)
+* Run the installer for the other Affinity app
 * right click to the app you've installed first > duplicate
-
-Name it According to the Affinity app you are using, set the correct .exe
+* Name it According to the Affinity app you are using in Game info
+* Set the correct .exe in Game options
