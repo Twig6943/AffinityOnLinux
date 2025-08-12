@@ -1,4 +1,4 @@
-Currenyly Lutris is the best method for Nvidia GPU users.
+Currently, Lutris is the best method for Nvidia GPU users.
 
 <img src="/Assets/NewLogos/AffinityLutris.png" width="400"/>
 
@@ -41,8 +41,8 @@ Copy & paste the wine binaries you've extracted earlier to Lutris’ runners dir
 
 # Configuring the executable path
 
-Once its done installing right click to affinity on lutris and go to configure
-* Game info
+Once its done installing right click to affinity on lutris and go to configure.
+* Game info.
 
 Change the name to
 
@@ -53,7 +53,7 @@ Change the name to
 Go to
 * Game options
 
-Change the executable to
+Change the executable to:
 
 * `drive_c/Program Files/Affinity/Photo 2/Photo.exe`
 * `drive_c/Program Files/Affinity/Designer 2/Designer.exe`
@@ -63,10 +63,10 @@ Click save & launch it.
 
 # Installing other apps to the same prefix
 
-You can install other apps by
-* Select existing Affinity app
-* click `Run EXE inside Wine prefix` in the Wine dropdown (bottom of window)
-* Run the installer for the other Affinity app
-* right click to the app you've installed first > duplicate
-* Name it According to the Affinity app you are using in Game info
-* Set the correct .exe in Game options
+You can install other apps by:
+* Select existing Affinity app.
+* Click `Run EXE inside Wine prefix` in the Wine dropdown (bottom of window).
+* Run the installer for the other Affinity app.
+* Right click to the app you've installed first > duplicate.
+* Name it According to the Affinity app you are using in Game info.
+* Set the correct .exe in Game options.
