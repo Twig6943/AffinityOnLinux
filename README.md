@@ -1,12 +1,10 @@
-# AffinityOnLinux 🌹
+# AffinityOnLinux
 
 <img src="/Assets/affinitytux_vectorized.svg" alt="Affinity on Linux" width="250"/>
 
 A repository that contains information on how to get Affinity software working on GNU/Linux with WINE 🐧
 
 # Join for support 🤝
-
-[Matrix 💬](https://matrix.to/#/#affinityonlinux:matrix.org)
 
 [Discord 💬](https://discord.gg/t5V9ecpJWZ)
 
