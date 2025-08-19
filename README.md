@@ -16,19 +16,13 @@ A repository that contains information on how to get Affinity software working o
 
 # List of contents
 
-### [Written Guide 📕](/Guides/) (Recommended install method ✅ )
+### [Written Guide 📕](/Guides/)
 
 This guide helps you step by step by hand using lutris/bottles/heroic games launcher.
-
-### [Bash install scripts 🤖](https://github.com/ryzendew/AffinityOnLinux) (These scripts aren't supported ❗ )
-
-We don't provide support for the install scripts over at our matrix/discord.
 
 We aren't affiliated with serif or canva.
 
 ### Miscellaneous
-
-[Other software on GNU/Linux 💻](/OtherSoftware/OtherSoftware-on-Linux.md)
 
 [Known issues ⚠️](/Known-issues.md)
 
